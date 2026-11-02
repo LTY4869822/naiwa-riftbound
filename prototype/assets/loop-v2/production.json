@@ -1,0 +1,33 @@
+{
+  "tool": "image_gen",
+  "pixel_edits": false,
+  "sources": [
+    {
+      "id": "run",
+      "source": "exec-c7a7aa52-0f1b-4106-be51-04bb130f133f.png",
+      "grid": [
+        4,
+        2
+      ],
+      "prompt": "Production game animation sprite sheet for the attached exact yellow horned creature: yellow skin, cream belly, green eyes, ONE huge near-side black obsidian claw with violet cracks, small far hand, ragged loincloth, cute but fierce. Eight COMPLETE full-body frames, precise FOUR columns TWO rows equal square cells, transparent background, no floor shadows, NO glow backdrop, no aura, no text. ALL face RIGHT in side three-quarter view. Same body proportions, limb lengths, horn design, consistent camera and body scale in all eight. Each body occupies at most 66 percent of cell height and 72 percent of width; LARGE TRANSPARENT GUTTERS, full claws and horns inside each cell. Feet share baseline 85 percent down every cell. This is animation, strong coherent in-between poses, not eight unrelated redesigns. Eight successive frames of ONE fluid energetic full sprint cycle, left foot contact / down compression / passing / lift / right foot contact / down compression / passing / lift. Lean torso forward, giant claw held behind and swinging with weight, small arm counter-swings; body bobs slightly but maintains proportions. Matched foot placements. No attacks. Crisp rendered 3D illustration quality matching reference."
+    },
+    {
+      "id": "combat",
+      "source": "exec-4264e8ee-0106-49fc-85c4-580964abe24c.png",
+      "grid": [
+        4,
+        2
+      ],
+      "prompt": "Production game animation sprite sheet for the attached exact yellow horned creature: yellow skin, cream belly, green eyes, ONE huge near-side black obsidian claw with violet cracks, small far hand, ragged loincloth, cute but fierce. Eight COMPLETE full-body frames, precise FOUR columns TWO rows equal square cells, transparent background, no floor shadows, NO glow backdrop, no aura, no text. ALL face RIGHT in side three-quarter view. Same body proportions, limb lengths, horn design, consistent camera and body scale in all eight. Each body occupies at most 66 percent of cell height and 72 percent of width; LARGE TRANSPARENT GUTTERS, full claws and horns inside each cell. Feet share baseline 85 percent down every cell. This is animation, strong coherent in-between poses, not eight unrelated redesigns. Eight combat animation key poses: 0 balanced neutral guard, 1 torso coils with claw drawing back for straight punch, 2 fully extended forceful horizontal claw punch, 3 relaxed elbow recoil recovery, 4 torso coils opposite direction for backhand, 5 broad forward backhand claw sweep, 6 huge claw raised overhead with body braced, 7 fierce overhead claw slam with bent knees. Head and belly maintain coherent volume, realistic weight transfer, far hand balances each action. Full body always visible."
+    },
+    {
+      "id": "morph",
+      "source": "exec-da0acd35-8fbc-48b3-9e77-84776f895367.png",
+      "grid": [
+        4,
+        2
+      ],
+      "prompt": "Production game animation sprite sheet for the attached exact yellow horned creature: yellow skin, cream belly, green eyes, ONE huge near-side black obsidian claw with violet cracks, small far hand, ragged loincloth, cute but fierce. Eight COMPLETE full-body frames, precise FOUR columns TWO rows equal square cells, transparent background, no floor shadows, NO glow backdrop, no aura, no text. ALL face RIGHT in side three-quarter view. Same body proportions, limb lengths, horn design, consistent camera and body scale in all eight. Each body occupies at most 66 percent of cell height and 72 percent of width; LARGE TRANSPARENT GUTTERS, full claws and horns inside each cell. Feet share baseline 85 percent down every cell. This is animation, strong coherent in-between poses, not eight unrelated redesigns. Eight chronological stages of ONE magical transformation in the SAME relaxed standing right-facing guard posture. Frame0 is ordinary yellow creature without horns, armor, claws, or loincloth. Frame1 faint purple cracks and tiny horn buds. Frame2 horns grow slightly and small dark stone plates cover near shoulder. Frame3 shoulder plates grow and near forearm gains thin armor. Frame4 near hand grows into partial large claw and loincloth starts forming. Frame5 large armored forearm with violet seams. Frame6 almost full horned giant-claw form. Frame7 completed exact reference creature. Keep feet, pelvis, tummy and head center aligned across all stages. Armor growth smooth, absolutely no lightning or aura baked into sprite. Natural, coherent same creature, not a costume swap."
+    }
+  ]
+}

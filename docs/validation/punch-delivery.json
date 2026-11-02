@@ -1,0 +1,200 @@
+{
+  "version": "pixelfx-impact-2026-10-31",
+  "entry": "prototype/v6/slice.tscn",
+  "launcher": "试玩打击感升级.cmd",
+  "documentation": "docs/PIXELFX_IMPACT_2026-10-31.md",
+  "assertions_passed": 336,
+  "tests": {
+    "PUNCH_CHECKS": 56,
+    "V6_CHECKS": 38,
+    "RIFT_CHECKS": 40,
+    "ULTIMATE_CHECKS": 40,
+    "LOOP_CHECKS": 162
+  },
+  "resources": {
+    "checked": 232,
+    "failed": []
+  },
+  "upstream": {
+    "repository": "https://github.com/patch-gg/pixelfx",
+    "commit": "fe7103c36d94e02f2d7df7d8f7a341e493837cde",
+    "skill": "skills/pixelfx/SKILL.md",
+    "license": "MIT",
+    "exports": [
+      [
+        "hit-gold",
+        "impacts/hit-spark",
+        "gold",
+        30,
+        1.7
+      ],
+      [
+        "hit-mint",
+        "impacts/hit-spark",
+        "mint",
+        30,
+        1.7
+      ],
+      [
+        "heavy",
+        "impacts/crit-hit",
+        "gold",
+        26,
+        1.65
+      ],
+      [
+        "break",
+        "impacts/parry",
+        "mint",
+        30,
+        1.45
+      ],
+      [
+        "ultimate",
+        "impacts/crit-hit",
+        "violet",
+        26,
+        2.05
+      ],
+      [
+        "hurt",
+        "impacts/blunt-hit",
+        "hurt",
+        22,
+        1.55
+      ],
+      [
+        "ground",
+        "impacts/ground-slam",
+        "gold",
+        0,
+        1.05
+      ]
+    ],
+    "method": "Original JS renderer; seeded options; original raw color and additive light exported separately. No commercial-game assets.",
+    "font": "Gallery font not shipped."
+  },
+  "upstream_contract": {
+    "recipes": 5,
+    "failures": 0,
+    "warnings": 0,
+    "log": "production/pixelfx/upstream-checks.log"
+  },
+  "assets": [
+    {
+      "effect": "hit-gold",
+      "frames": 16,
+      "last_frame_empty": true
+    },
+    {
+      "effect": "hit-mint",
+      "frames": 16,
+      "last_frame_empty": true
+    },
+    {
+      "effect": "heavy",
+      "frames": 28,
+      "last_frame_empty": true
+    },
+    {
+      "effect": "break",
+      "frames": 31,
+      "last_frame_empty": true
+    },
+    {
+      "effect": "ultimate",
+      "frames": 28,
+      "last_frame_empty": true
+    },
+    {
+      "effect": "hurt",
+      "frames": 28,
+      "last_frame_empty": true
+    },
+    {
+      "effect": "ground",
+      "frames": 97,
+      "last_frame_empty": true
+    }
+  ],
+  "color_light_atlas_pairs": 7,
+  "audio_takes": 12,
+  "video": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuvj420p(pc, bt470bg/unknown/unknown, progressive)",
+    "audio_codec": "aac",
+    "fps": 30.0,
+    "source_size": [
+      1152,
+      720
+    ],
+    "size": [
+      1152,
+      720
+    ],
+    "rotate": 0,
+    "duration": 15.0,
+    "sha256": "573c2a362a628c52282cb50fbd9a54bf721c0257b81900189b141fef5948ca04"
+  },
+  "film": {
+    "captions": [
+      "节奏连击 · 金色火花 → 薄荷追击 → 重拳震地",
+      "重拳破甲 · 硬朗爆点、短暂停顿、碎石落地",
+      "左右方向跟随命中 · 亮色地图保持清楚",
+      "星核巨拳 · 命中才绽放紫霆爆点",
+      "Boss 招式落地 · 保留预警，爆发后碎石与烟尘衰减",
+      "精准闪避 · 薄荷闪光与清脆反击提示"
+    ],
+    "fps": 30,
+    "scenario": "Actual Input.parse_input_event combo, heavy and ultimate attacks against staged high-HP targets. One seeded floor spell and a direct precision-dodge hook demonstrate presentation. Not a normal playthrough."
+  },
+  "screenshots": [
+    "punch-film-break.png",
+    "punch-film-combo.png",
+    "punch-film-evade.png",
+    "punch-film-ground.png",
+    "punch-film-left.png",
+    "punch-film-ring.png",
+    "punch-film-ultimate.png"
+  ],
+  "audio": {
+    "seconds": 15.018666666666666,
+    "peak_dbfs": -8.587914978748861
+  },
+  "formal_records_written_by_checks": false,
+  "historical_check": {
+    "script": "ascension/review.gd",
+    "checks": 134,
+    "failures": 14,
+    "counted_as_passing": false,
+    "reason": "Obsolete early rules: six-kill awakening, free healing, old finisher multipliers and old route buttons. Current rules are covered by loop/review.gd and punch/review.gd.",
+    "log": "punch-ascension-regression.log"
+  },
+  "limits": [
+    "Movie uses staged high-health sparring targets, a seeded field and direct evade hook.",
+    "No full playthrough or multi-device performance claim.",
+    "Visual and gain checks do not establish subjective audio quality on every speaker."
+  ],
+  "sha256": {
+    "prototype/punch/audio.gd": "13e4cca2530596eb48cd8d11e84c37acdfc9624e4ab69766b75812513a623361",
+    "prototype/punch/demo.gd": "de6184e5aadad3d5933c3b78e22b0da8ac64febaa57d4b0cf84597a51db6e63a",
+    "prototype/punch/director.gd": "9f6e4e70beaca743563b7514625c13bb00a8eef18d9a3f103aedd22d6992bcdd",
+    "prototype/punch/dummy.gd": "afb73fe030062e67abc16323db43a65bbcf2ac10ae1fcbecbfb92f24d360c2d6",
+    "prototype/punch/film.gd": "62a262ac68edf5e204d2ff624e7e5b05c2f7cb1604f43a2dbf4b7fdf181e7e74",
+    "prototype/punch/review.gd": "f87ac0d5a37c054ab962800b36445e47cbd1deb1c0c64b0631cddcbede5ed633",
+    "prototype/punch/flash.gdshader": "68d3da93052528fcdc8a5387ee8a50c382910503930d35dabb81d863023ae77d",
+    "prototype/v6/main.gd": "7f532f0f901ede023c0aaa1a7513b933a5fe238985d54dc0e6b529d0c8c1ea96",
+    "prototype/v6/stage.gd": "05071ac74b6462a228d9a214ba92713885873ed38c6044cc6a283ff4526a892b",
+    "prototype/v6/effects.gd": "12faae1507c7b1e4ecd1a86117eb066091ea24b156b554ba2a520c1396fd8211",
+    "prototype/v5/enemy.gd": "cfa05a46ac19506dc1e92e2976e3623ebe440d2a7cb2294b7ab9d9155e70d84a",
+    "prototype/rift/director.gd": "d69ff24fdd92a1087f638b81751f9dee6d1d38b7ac2c80efb5503ad1ec55e6d2",
+    "prototype/foe_vfx/director.gd": "f44801c7e564f8959c8489f03c2132c7b3c14290af5a4ab6fbe22e66f81519df",
+    "prototype/combat/ultimate.gd": "097b877e0554f6e92c88fb1e1e65b105b4849b8ae3d3efaafad1629a6083a307",
+    "prototype/ascension/power.gd": "624abae70400833b9922aabfd29537511b7b007b4567c90bb6c8a153587fc9b9",
+    "prototype/campaign/boss_fields.gd": "44edab1e1dd98f8a0e1ac0040ed5b4d69e5b0eb33d48b300a55380ad2f3d2456",
+    "tools/export_pixelfx.mjs": "9b29d7edd7d06ae3a08ec8621d74cb2bb735ba131893047ea08aca6ba9baaa66",
+    "tools/make_impact_audio.py": "41a3d19750baffcda326e77cea6e3f948f5273d92ac976454260be6fca8f1e91",
+    "prototype/artifacts/pixelfx-impact-demo.mp4": "573c2a362a628c52282cb50fbd9a54bf721c0257b81900189b141fef5948ca04"
+  }
+}

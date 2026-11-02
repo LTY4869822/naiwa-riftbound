@@ -1,0 +1,318 @@
+{
+  "scale": 0.175,
+  "frames": [
+    {
+      "texture": "res://assets/v6/approved/00-idle.png",
+      "anchor": [
+        537,
+        1355
+      ],
+      "hand": [
+        340,
+        910
+      ],
+      "sole_y": 1355
+    },
+    {
+      "texture": "res://assets/v6/approved/01-prepare.png",
+      "anchor": [
+        537,
+        1355
+      ],
+      "hand": [
+        351,
+        790
+      ],
+      "sole_y": 1354
+    },
+    {
+      "texture": "res://assets/v6/approved/02-guard.png",
+      "anchor": [
+        537,
+        1355
+      ],
+      "hand": [
+        366,
+        521
+      ],
+      "sole_y": 1354
+    },
+    {
+      "texture": "res://assets/v6/approved/03-extend.png",
+      "anchor": [
+        537,
+        1355
+      ],
+      "hand": [
+        276,
+        492
+      ],
+      "sole_y": 1355
+    },
+    {
+      "texture": "res://assets/v6/approved/04-strike.png",
+      "anchor": [
+        537,
+        1355
+      ],
+      "hand": [
+        239,
+        492
+      ],
+      "sole_y": 1355
+    },
+    {
+      "texture": "res://assets/v6/approved/05-recoil.png",
+      "anchor": [
+        537,
+        1355
+      ],
+      "hand": [
+        384,
+        539
+      ],
+      "sole_y": 1355
+    },
+    {
+      "texture": "res://assets/v6/approved/06-right-guard.png",
+      "anchor": [
+        537,
+        1355
+      ],
+      "hand": [
+        663,
+        525
+      ],
+      "sole_y": 1354
+    },
+    {
+      "texture": "res://assets/v6/approved/07-right-extend.png",
+      "anchor": [
+        537,
+        1355
+      ],
+      "hand": [
+        818,
+        477
+      ],
+      "sole_y": 1355
+    },
+    {
+      "texture": "res://assets/v6/approved/08-right-strike.png",
+      "anchor": [
+        537,
+        1355
+      ],
+      "hand": [
+        815,
+        472
+      ],
+      "sole_y": 1355
+    },
+    {
+      "texture": "res://assets/v6/approved/09-right-recoil.png",
+      "anchor": [
+        537,
+        1355
+      ],
+      "hand": [
+        702,
+        507
+      ],
+      "sole_y": 1354
+    },
+    {
+      "texture": "res://assets/v6/approved/10-step-contact.png",
+      "anchor": [
+        537,
+        1347
+      ],
+      "hand": [
+        350,
+        800
+      ],
+      "sole_y": 1347
+    },
+    {
+      "texture": "res://assets/v6/approved/11-step-gather.png",
+      "anchor": [
+        537,
+        1348
+      ],
+      "hand": [
+        350,
+        800
+      ],
+      "sole_y": 1348
+    },
+    {
+      "texture": "res://assets/v6/approved/12-step-transfer.png",
+      "anchor": [
+        537,
+        1354
+      ],
+      "hand": [
+        350,
+        800
+      ],
+      "sole_y": 1354
+    }
+  ],
+  "clips": {
+    "idle": {
+      "frames": [
+        0
+      ],
+      "times": [
+        1
+      ],
+      "duration": 1
+    },
+    "run": {
+      "frames": [
+        10,
+        11,
+        0,
+        12
+      ],
+      "times": [
+        0.085,
+        0.075,
+        0.065,
+        0.075
+      ],
+      "duration": 0.3
+    },
+    "attack0": {
+      "frames": [
+        1,
+        5,
+        2,
+        3,
+        4,
+        3,
+        5,
+        1
+      ],
+      "times": [
+        0.04,
+        0.04,
+        0.06,
+        0.025,
+        0.085,
+        0.04,
+        0.09,
+        0.1
+      ],
+      "duration": 0.48
+    },
+    "attack1": {
+      "frames": [
+        5,
+        6,
+        9,
+        7,
+        8,
+        7,
+        9,
+        6,
+        1
+      ],
+      "times": [
+        0.04,
+        0.07,
+        0.06,
+        0.025,
+        0.095,
+        0.04,
+        0.08,
+        0.06,
+        0.07
+      ],
+      "duration": 0.54
+    },
+    "attack2": {
+      "frames": [
+        1,
+        2,
+        6,
+        9,
+        7,
+        8,
+        7,
+        9,
+        1
+      ],
+      "times": [
+        0.05,
+        0.07,
+        0.08,
+        0.05,
+        0.03,
+        0.11,
+        0.07,
+        0.11,
+        0.15
+      ],
+      "duration": 0.72
+    },
+    "skill": {
+      "frames": [
+        1,
+        2,
+        6,
+        8,
+        4,
+        9,
+        1
+      ],
+      "times": [
+        0.06,
+        0.1,
+        0.1,
+        0.08,
+        0.08,
+        0.1,
+        0.16
+      ],
+      "duration": 0.68
+    },
+    "hurt": {
+      "frames": [
+        6,
+        2,
+        1
+      ],
+      "times": [
+        0.08,
+        0.12,
+        0.12
+      ],
+      "duration": 0.32
+    },
+    "dash": {
+      "frames": [
+        6,
+        1
+      ],
+      "times": [
+        0.1,
+        0.08
+      ],
+      "duration": 0.18
+    },
+    "air": {
+      "frames": [
+        1,
+        2,
+        1
+      ],
+      "times": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "duration": 1
+    }
+  }
+}

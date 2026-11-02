@@ -1,0 +1,123 @@
+{
+  "repository": "https://github.com/yuewen-huang/combat-vfx-demo",
+  "commit": "efbcb0e054d6a6ca04df614e95b410afa9aae21b",
+  "license": "MIT",
+  "files": [
+    {
+      "path": "LICENSE",
+      "source_sha256": "e15841da7584436b1b9fcaedf93a51a4beede4c668ff6e80f657031c5435ac84",
+      "runtime_sha256": "d6c6659b9799c437c6b4fde21d3972c537a4a43c757d3b20a52381961dc17f70",
+      "changes": []
+    },
+    {
+      "path": "vfx/claw_rake.gd",
+      "source_sha256": "3368f9d405274dce998f3020a5a53e71d230c6c4a72d66b18b2a69932d981484",
+      "runtime_sha256": "a920d0a547cd453a8559c78f98d430f6ecd832a7f28bbfc811ef48e7d2ebd298",
+      "changes": [
+        "res://vfx/ path namespace",
+        "Direct mesh rendering",
+        "Inline the original swing easing",
+        "Remove unused ComboStage transform dependency"
+      ]
+    },
+    {
+      "path": "vfx/magic/canvas.gd",
+      "source_sha256": "3d05ae4603918fd542b5a291db5a14e8348815d0bd52d2720d5e6602d1fe6676",
+      "runtime_sha256": "d28e9c0f458f820544a1d87ad4ea14b2cd0884cadaeea11534f2e35e14530296",
+      "changes": [
+        "res://vfx/ path namespace"
+      ]
+    },
+    {
+      "path": "vfx/magic/magic_art.gd",
+      "source_sha256": "aa2522fe8ead3548c0fb9857a2818ae9f5471162d45b4940afa0343951045cce",
+      "runtime_sha256": "adfb8d44758498834fa3527312d6e02ed947938988f3bdf64cad8b4729f387bc",
+      "changes": [
+        "res://vfx/ path namespace",
+        "Balanced density by default; no screen refraction"
+      ]
+    },
+    {
+      "path": "vfx/magic/shaders/bolt.gdshader",
+      "source_sha256": "a6a18cf4420d806c8578d27ada2b2641085d221fdcff08a12b96ca66b3febe83",
+      "runtime_sha256": "e1d133c945d84e2c12e1684c3ede376c705236ef22cc15ded975d9ac0e87a240",
+      "changes": [
+        "res://vfx/ path namespace"
+      ]
+    },
+    {
+      "path": "vfx/magic/shaders/explosion.gdshader",
+      "source_sha256": "f5bcc83594777ba7b1c3b72544c8067e846dbddc2b31e8e48a7a62c03f9513c7",
+      "runtime_sha256": "bb8cdba140ad216770b76ac29e6dedfa1448705a8f882ec66d0f816b6355643e",
+      "changes": [
+        "res://vfx/ path namespace"
+      ]
+    },
+    {
+      "path": "vfx/magic/shaders/fireball.gdshader",
+      "source_sha256": "2b89a9a64b0d79eed71420ea1888a8309da8b24b1cf1ad2e24fe37a025efc458",
+      "runtime_sha256": "2038ad6910fa1318586c7b198840bdd327424b8984bd0550cf8f5775ab4f2e3b",
+      "changes": [
+        "res://vfx/ path namespace"
+      ]
+    },
+    {
+      "path": "vfx/magic/shaders/flame_tongue.gdshader",
+      "source_sha256": "d2d3deac8c897219aa5b779801a0c86718a489792187db6ec5896fe0e4055fe9",
+      "runtime_sha256": "78efdb954701223539a68e0f1452fefdfe71aace808febbf941474a75fae0fed",
+      "changes": [
+        "res://vfx/ path namespace"
+      ]
+    },
+    {
+      "path": "vfx/magic/shaders/noise.gdshaderinc",
+      "source_sha256": "faa00784f71ca57ec13064d27071bde3e42db852f7cf0f66836b61d4df3cdc11",
+      "runtime_sha256": "238b7c06ae22fa7ac17c461af7f154e1807e50838cefb3cf700a3199bbc7515c",
+      "changes": [
+        "res://vfx/ path namespace"
+      ]
+    },
+    {
+      "path": "vfx/magic/shaders/wind.gdshader",
+      "source_sha256": "235831f6fc061c9c1930ec4b5d2c3b4094db86f1218033e49f1bae7bb298727b",
+      "runtime_sha256": "f4f1f31031b19baa87b4c2b807824bdf79f4d767455c9abc73ef3b5722f193fa",
+      "changes": [
+        "res://vfx/ path namespace"
+      ]
+    },
+    {
+      "path": "vfx/magic/thunder/arcs.gd",
+      "source_sha256": "f2719b52467bed1820abcebc9a8a3fe2a3e45e2613a5c91cb899166895a58b2e",
+      "runtime_sha256": "972345a007e5b1275085b91c7853b5d96137f66035505787be1c889c78b0967d",
+      "changes": [
+        "res://vfx/ path namespace"
+      ]
+    },
+    {
+      "path": "vfx/magic/wind/gusts.gd",
+      "source_sha256": "0fc5b6f3ecf2bdc18d96c4fbf6b36170a143f3b553faba4aec3c6cafc8fb2edf",
+      "runtime_sha256": "34d2bfebc55b4ab072d16df923c3cf78d8e95495f87f3a4458c460a9ad6ed431",
+      "changes": [
+        "res://vfx/ path namespace"
+      ]
+    },
+    {
+      "path": "vfx/trajectory_ribbon.gd",
+      "source_sha256": "3a354719021eedb773d805849a99dcaf3cb3275c2e9e4227f81f08110b64830a",
+      "runtime_sha256": "33944d2dfe5468d8cda78af1d66a0d27a132bc7659d1bd76ecb693dd57e37013",
+      "changes": [
+        "res://vfx/ path namespace",
+        "Direct full-resolution mesh instead of a per-effect SubViewport"
+      ]
+    },
+    {
+      "path": "vfx/trajectory_ribbon.gdshader",
+      "source_sha256": "f9ec6368aa28ab793e9c2eaf351f09f6a1152c39a4e71d151be230f349339fd9",
+      "runtime_sha256": "7bc9ae1942e583cc2df45da1dcb80b52448ba36ab18f117f92cbcc0b9226ad0f",
+      "changes": [
+        "res://vfx/ path namespace"
+      ]
+    }
+  ],
+  "note": "Only modules from this MIT commit are vendored. New enemy event orchestration and custom earth/spore/lantern effects live outside third_party."
+}

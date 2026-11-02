@@ -1,0 +1,18 @@
+{
+  "author": "Kenney",
+  "pack": "Particle Pack",
+  "license": "CC0 1.0",
+  "url": "https://kenney.nl/assets/particle-pack",
+  "archive_sha256": "b631d4b07f7002549fdcf155f01141ad482f79f3440e4e301eed49ce5f1d8958",
+  "files": {
+    "dirt_02.png": "fcecc70b561f80568b3391c3dc1180126d86ce4fbd4d1b01518e6045203e10a3",
+    "smoke_05.png": "e88c8416bd8da1b3f9f19e615dcebdf42f71045799cb4c41f545cb16dd835e35",
+    "magic_03.png": "c2ef5fe86cd2fd08e5b9768389ab6580b346c391db3c7c09fc9b0a63e00ec4ce",
+    "circle_05.png": "925b8ac284436f74f9cadf0ecd058da1c08fba65c098e4e34fd220603022f02e",
+    "slash_02.png": "a79a9e297790e6126b78d41015a3045cda3f1863b421c88321d2442ed6f9032e",
+    "spark_04.png": "3cba35b80a97c12283a8ecd41780a0412194de14562cbffc7f04e9157183f772",
+    "star_07.png": "d3bc9b8f1960baab452e8a5e816b9edeee4420dbed5ddd7ebe174519860a451a"
+  },
+  "technique_reference": "https://www.gdquest.com/news/2020/05/godot-vfx-secrets-out/",
+  "note": "Original CC0 PNG bytes; runtime tint/rotation/scale only. GDQuest used as technique reference, no source code copied."
+}

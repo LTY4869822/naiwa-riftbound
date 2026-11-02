@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-29",
+  "tool": "OpenAI built-in image generation",
+  "reference": "assets/v6/side/00-guard.png",
+  "file": "sprint-four-frames.png",
+  "generated_output": "exec-2b59d52f-4ed9-4aeb-952f-9d72f04ed1d3.png",
+  "sha256": "005fbbb64ff0a5aa7244b8579f85a66b94c5d6eb36b8932645ea218f2df373fc",
+  "frames": 4,
+  "grid": [
+    2,
+    2
+  ],
+  "pixel_edits": false,
+  "uniform_scale": 0.46,
+  "sole_anchors": [
+    491,
+    461,
+    468,
+    449
+  ],
+  "prompts": "PROMPTS.md",
+  "wind": "Code-rendered live wind and snapshot trails, separate from character art."
+}

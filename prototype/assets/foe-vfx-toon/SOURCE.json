@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-28",
+  "generator": "built-in image_gen.imagegen",
+  "transparent_background": true,
+  "prompts": "PROMPTS.md",
+  "purpose": "Original anime elemental attacks for Naiwa; no assets extracted from Naruto games",
+  "files": [
+    {
+      "file": "fire-eruption-eight-frames.png",
+      "source_file": "exec-a23db151-bb49-4704-bc01-d2fb3a89359c.png",
+      "sha256": "868542326d06a1b31c9470afa0eadc064f4df7302f0c96c8967cedb8ed76cd76",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "grid": [
+        4,
+        2
+      ],
+      "frames": 8,
+      "source_edits": "none; runtime samples unmodified PNG cells"
+    },
+    {
+      "file": "spore-eruption-eight-frames.png",
+      "source_file": "exec-f955e160-c538-4931-9125-0e1dbe86a238.png",
+      "sha256": "94fce524820267b3d30632cdcd48dc38f9893ed096a0cb2197995fea3970f477",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "grid": [
+        4,
+        2
+      ],
+      "frames": 8,
+      "source_edits": "none; runtime samples unmodified PNG cells"
+    },
+    {
+      "file": "lightning-eight-frames.png",
+      "source_file": "exec-04a3ff37-c2b9-4621-87a4-b1cea4933779.png",
+      "sha256": "662c015ca8273133baef990b09164db88a3ca7cb4531a9db688d9b4a7979e11d",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        253
+      ],
+      "grid": [
+        4,
+        2
+      ],
+      "frames": 8,
+      "source_edits": "none; runtime samples unmodified PNG cells"
+    },
+    {
+      "file": "wind-slash-eight-frames.png",
+      "source_file": "exec-07b7106b-6f97-4e16-a4a8-3cc77e28801f.png",
+      "sha256": "7ae552961c08a464d4a9828cfad91910ed41b2817cd6270fead7c81bb6e6e319",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "grid": [
+        4,
+        2
+      ],
+      "frames": 8,
+      "source_edits": "none; runtime samples unmodified PNG cells"
+    }
+  ]
+}

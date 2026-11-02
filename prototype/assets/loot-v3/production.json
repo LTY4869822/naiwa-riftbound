@@ -1,0 +1,25 @@
+{
+  "coin": "Use case: stylized-concept. Production sprite sheet for collectible gold coins in a polished 2D fantasy action game, seen at 40 pixels tall in play. Transparent RGBA background. Landscape sheet, exactly 8 separate poses in a perfectly regular 4 columns by 2 rows grid, identical cell size. Each cell has ONE large coin, vertically centered, full object entirely contained with generous transparent gutters. SAME collectible rotating around its vertical axis, sequence left-to-right then top-to-bottom at yaw 0,45,90,135,180,225,270,315 degrees. Both front and back have the same elegant raised purple enamel emblem: a simple round friendly creature head with two small horn nubs, no lettering. Thick warm yellow gold bevelled milled rim, rich amber edge, antique bronze recesses, pale gold highlights top left, bold deep plum contour, premium hand-painted 3D game icon quality. Large readable relief, slightly irregular forged edge, no tiny fine engravings. Exactly the same outer height and design in all eight slots, no camera zoom, no tilting in screen plane, no bobbing; the edge-on poses are thin upright gold slivers. Soft painted reflective shading, crisp silhouette. No text, no labels, no background, no floor, no cast shadows, no external sparkles or auras, no UI frames. Render as true alpha transparency, never a checkerboard. This is a cohesive eight-frame game animation asset, not a presentation board.",
+  "potion": "Use case: stylized-concept. A single production collectible HEALING DEW potion sprite for a high-quality 2D fantasy action game. Referenced image is STYLE AND PALETTE REFERENCE ONLY: match its premium hand-painted dimensional game item finish, warm gold bevels, deep plum edges and broad bright highlights; do not put any coins in this image. One complete upright round-bellied glass flask, short narrow neck and chunky golden stopper with a small polished purple gemstone. Thick translucent emerald and turquoise glass containing luminous green healing liquid; clearly readable liquid meniscus, one broad white reflection, two small bubbles INSIDE the bottle. Ornate but bold golden collar and lower corner filigree, two sculpted leaf shapes clasping its sides, a simple gold heart-shaped central medallion. Compact friendly silhouette, no skinny needles, no tiny filigree noise. Front three-quarter orthographic view, centered, roughly square body with neck, entire object visible with 15% transparent margin. Designed to read at only 58 pixels tall: strong value separation and big material shapes. Emerald healing liquid is the focal point; gold and a little purple bind it to our mascot game. Soft top-left light, crisp antialiased edges, tasteful painterly materials, not pixel art and not a flat vector icon. True RGBA transparent background. No text, no labels, no floor, no cast shadow, no outside sparkles, no glow outside silhouette, no external particles, no scene, no UI frame, no coins, no extra objects.",
+  "tool": "built-in image_gen",
+  "taxonomy": "stylized-concept",
+  "sources": [
+    {
+      "id": "coin",
+      "source": "exec-17a6b7b4-8688-4365-9477-7bf16d707d6a.png"
+    },
+    {
+      "id": "potion",
+      "source": "exec-2192c1ae-a879-4df4-89bd-44e0020a9766.png"
+    }
+  ],
+  "brief": {
+    "engine": "Godot 4.7.2, 2D 1280x800",
+    "coin_height": 40,
+    "boss_coin_height": 48,
+    "potion_height": 62,
+    "filter": "linear with mipmaps",
+    "palette": "warm gold, purple enamel, emerald glass",
+    "pixel_edits": false
+  }
+}

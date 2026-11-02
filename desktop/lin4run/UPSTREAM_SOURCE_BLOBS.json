@@ -1,0 +1,116 @@
+{
+  "repository": "https://github.com/LIN4RUN/naiwa-desktop-pet",
+  "commit": "55e005b2ad6a1482a9d6544d8d691d87b23d9f1b",
+  "source_files": [
+    {
+      "path": "源码/NaiwaDesktop/Assets.cs",
+      "git_blob_sha": "af86141132615ec7ff48829cfa89427b218a6fb4",
+      "bytes": 8742
+    },
+    {
+      "path": "源码/NaiwaDesktop/CrowdWindow.cs",
+      "git_blob_sha": "e9344d0aacf917be98f505144c19bc25253bed81",
+      "bytes": 5731
+    },
+    {
+      "path": "源码/NaiwaDesktop/DragArt.cs",
+      "git_blob_sha": "03339ff7583841faf4d97802b0df13bd04241715",
+      "bytes": 2517
+    },
+    {
+      "path": "源码/NaiwaDesktop/EyeArt.cs",
+      "git_blob_sha": "e2ef9de64b6b87fd26d0870a151bdd60fc53ceba",
+      "bytes": 844
+    },
+    {
+      "path": "源码/NaiwaDesktop/FeedArt.cs",
+      "git_blob_sha": "f011f2f0b54be4d47b506fdfa581f2ff32831009",
+      "bytes": 1499
+    },
+    {
+      "path": "源码/NaiwaDesktop/Fullscreen.cs",
+      "git_blob_sha": "7081209a3868702cb22417d0b7e215e6a0b51584",
+      "bytes": 1501
+    },
+    {
+      "path": "源码/NaiwaDesktop/FullscreenGate.cs",
+      "git_blob_sha": "19a8e6003c1c256657aa8ea0edf8196faffbc5aa",
+      "bytes": 618
+    },
+    {
+      "path": "源码/NaiwaDesktop/Gesture.cs",
+      "git_blob_sha": "4a838b9e9a287f4aa182bfcd756ad473bce94d96",
+      "bytes": 1136
+    },
+    {
+      "path": "源码/NaiwaDesktop/GifArt.cs",
+      "git_blob_sha": "03a0a040ce2e330769b61a3b60a4d60c8e908dc4",
+      "bytes": 2596
+    },
+    {
+      "path": "源码/NaiwaDesktop/LayeredSurface.cs",
+      "git_blob_sha": "e34cb402731cae96ce7959cb673c6cfd4be3493f",
+      "bytes": 2521
+    },
+    {
+      "path": "源码/NaiwaDesktop/Motion.cs",
+      "git_blob_sha": "798378f9e277cfedc3ea02e81f82493901e19748",
+      "bytes": 11094
+    },
+    {
+      "path": "源码/NaiwaDesktop/Native.cs",
+      "git_blob_sha": "4b20d05ce5d5311c62cb9085bbd43482246c1432",
+      "bytes": 3865
+    },
+    {
+      "path": "源码/NaiwaDesktop/PetWindow.cs",
+      "git_blob_sha": "9f903e06f3f68f6ec84a7651f17b4c75f382b2eb",
+      "bytes": 51388
+    },
+    {
+      "path": "源码/NaiwaDesktop/Program.cs",
+      "git_blob_sha": "ca9309ece39fbe1dea289a28d83c5f300552042f",
+      "bytes": 2898
+    },
+    {
+      "path": "源码/NaiwaDesktop/Renderer.cs",
+      "git_blob_sha": "ef7d0756ea305aa618c14717643667fbea5a8705",
+      "bytes": 22894
+    },
+    {
+      "path": "源码/NaiwaDesktop/Settings.cs",
+      "git_blob_sha": "0990af6023215f9b4558d00cec48335ab610db02",
+      "bytes": 3857
+    },
+    {
+      "path": "源码/NaiwaDesktop/Tests.cs",
+      "git_blob_sha": "342505365632fbfa58b304cbd473cf586f597119",
+      "bytes": 28736
+    },
+    {
+      "path": "源码/NaiwaDesktop/WalkArt.cs",
+      "git_blob_sha": "b59d7fa7995464a65a687171491519e80cc383a7",
+      "bytes": 2489
+    },
+    {
+      "path": "源码/app.ico",
+      "git_blob_sha": "8d2d792e1a47551c83e1a5c23e9fa4500330b655",
+      "bytes": 81953
+    },
+    {
+      "path": "源码/app.manifest",
+      "git_blob_sha": "262b3ccc129509e4c89f68ef1574f222a1720c81",
+      "bytes": 770
+    },
+    {
+      "path": "源码/build.cmd",
+      "git_blob_sha": "cee091d1153ad35f98524b0bf3dfb01c6dc84a0b",
+      "bytes": 963
+    },
+    {
+      "path": "源码/奶蛙桌宠.csproj",
+      "git_blob_sha": "233870d402d21897909e1dfb5d06eae3769a74fb",
+      "bytes": 1393
+    }
+  ]
+}

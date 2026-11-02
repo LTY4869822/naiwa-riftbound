@@ -1,0 +1,29 @@
+{
+  "edition": "web-2026-10-31",
+  "export": "Godot 4.7.2 official single-threaded release",
+  "download_bytes": 51152797,
+  "files": [
+    {
+      "file": "naiwa.wasm",
+      "bytes": 39514754,
+      "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0",
+      "verified": true
+    },
+    {
+      "file": "naiwa.pck",
+      "bytes": 41675176,
+      "sha256": "a6ab61cfe1f83d0518f9acf55eb0a3edf894b03416e31d67734d05827a041387",
+      "verified": true
+    }
+  ],
+  "native_game_modified": false,
+  "native_records_uploaded": false,
+  "entry": "normal main menu, no test mode",
+  "font": "Bundled static Noto Sans SC 500 / 800, SIL OFL",
+  "controls": "Keyboard and engine-native multi-touch TouchScreenButton",
+  "save": "Browser-local user://; not shared across browsers or desktop",
+  "limits": [
+    "Native pet and recycle-bin integration remain Windows-only.",
+    "No full twelve-room playthrough or physical phone test is claimed."
+  ]
+}

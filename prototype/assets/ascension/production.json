@@ -1,0 +1,97 @@
+{
+  "sources": [
+    [
+      "hero/combat.png",
+      "exec-bb639767-31cd-4a4c-a599-0ae1da116bed.png",
+      4,
+      2
+    ],
+    [
+      "hero/morph.png",
+      "exec-a1c5836d-1a6c-45f8-b7f1-72d97f2e9c32.png",
+      2,
+      2
+    ],
+    [
+      "hero/run.png",
+      "exec-f5297c28-34a4-4f34-b6fe-4b5be0d5d1fb.png",
+      2,
+      2
+    ],
+    [
+      "bosses/zheng.png",
+      "exec-88d35fad-f6bb-477b-88a6-168deba3a383.png",
+      4,
+      2
+    ],
+    [
+      "bosses/zhuyin.png",
+      "exec-7a7f1372-158c-4e29-8021-c445487b5fc9.png",
+      4,
+      2
+    ],
+    [
+      "bosses/yinglong.png",
+      "exec-b4451648-d76a-49df-9c54-1dd35a1238df.png",
+      4,
+      2
+    ],
+    [
+      "bosses/paoxiao.png",
+      "exec-c4f904d0-a9a2-42cc-9980-32fbaadb206d.png",
+      4,
+      2
+    ],
+    [
+      "vfx/claw.png",
+      "exec-b5eb6093-7396-4b21-b41b-919135824d6e.png",
+      4,
+      2
+    ],
+    [
+      "vfx/eclipse.png",
+      "exec-7b4a29db-99ec-49c0-b24d-7c8e93183afb.png",
+      4,
+      2
+    ],
+    [
+      "hero/combat-clean.png",
+      "exec-610035f0-cf35-4f3d-bb8d-bed7a9a2c255.png",
+      2,
+      2
+    ],
+    [
+      "bosses/zhuyin-clean.png",
+      "exec-0d42aa89-af2e-45e9-a4dc-2642b3122957.png",
+      2,
+      2
+    ]
+  ],
+  "prompts": {
+    "hero": {
+      "combat": "Production 2D game animation atlas of EXACTLY the provided evolved yellow creature: round heavy yellow body and cream belly, green fierce eyes, two small dark curved horns, tusks, torn dark cloth loincloth with red strip, ONE enormous near-camera black volcanic-rock armored arm with glowing VIOLET cracks and three huge claw fingers. Other arm remains small and mostly yellow. Preserve this precise identity, asymmetric armor, heavy body volume, material and soft 3D animated-film lighting. Perfect SIDE PROFILE FACING RIGHT in every cell; no front or back views. Full body with feet/claws/horns entirely inside each cell, consistent body size and fixed camera, fixed foot baseline. True transparent alpha, character only, NO ground shadows, NO atmospheric glow outside body, no floor or scenery, no text, no grid lines. Wide empty transparent gutters around each complete pose. EXACTLY 8 complete action poses in an even 4 columns by 2 rows grid. Row1: 1 ready combat idle with heavy claw hanging forward; 2 stepping forward claw guarding; 3 compressed low charge with claw pulled back; 4 huge straight rightward claw punch with an extended rock arm. Row2: 5 overhead claw ground-slam, 6 roaring ultimate channel with gigantic claw raised diagonally forward, 7 fierce sweeping claw swipe across the front, 8 braced recovery/hurt crouch. Each cell contains ONE complete character. Strong anatomically clear claw and fierce readable silhouette, no action effects.",
+      "morph": "Production game TRANSFORMATION animation atlas, exactly 4 full-body poses in a 2x2 grid, all facing RIGHT side profile, same camera, same center and foot baseline, consistent body dimensions. Reference1 is the FINAL evolved form; reference2 is the START ordinary yellow creature. Animate a natural progression while staying in the same grounded guard stance: cell1 ordinary yellow creature with ONLY a few glowing violet cracks on its near shoulder, no horns yet, normal small hands; cell2 small horns emerge and black rock plates assemble on shoulder/forearm, hand growing slightly, violet fissures; cell3 horns/tusks and torn dark loincloth now present, volcanic plates cover near arm and fingers grow into a large claw; cell4 complete final form exactly as reference1, heavy yellow round body, cream belly, green eyes, TWO horns, ONE gigantic black rocky claw arm with violet fissures, smaller other arm, torn cloth waist. Preserve recognizable identity across all four frames. Full bodies never cropped, generous transparent gutters; no scenery, no ground or shadows, no background glow, no labels/text/grid. Clean soft 3D animated-film rendering, true transparent background. Stance and body position remain nearly identical so these frames crossfade smoothly in our game.",
+      "run": "Production 2D game animation atlas of EXACTLY the provided evolved yellow creature: round heavy yellow body and cream belly, green fierce eyes, two small dark curved horns, tusks, torn dark cloth loincloth with red strip, ONE enormous near-camera black volcanic-rock armored arm with glowing VIOLET cracks and three huge claw fingers. Other arm remains small and mostly yellow. Preserve this precise identity, asymmetric armor, heavy body volume, material and soft 3D animated-film lighting. Perfect SIDE PROFILE FACING RIGHT in every cell; no front or back views. Full body with feet/claws/horns entirely inside each cell, consistent body size and fixed camera, fixed foot baseline. True transparent alpha, character only, NO ground shadows, NO atmospheric glow outside body, no floor or scenery, no text, no grid lines. Wide empty transparent gutters around each complete pose. EXACTLY FOUR full-body RUN/DASH action frames in a 2 columns by 2 rows grid. Deep forward torso lean, aggressive ground-devouring stride, enormous rock claw swept back with weight. Frame1 low push-off; frame2 extended airborne stride; frame3 opposite-foot compression; frame4 opposite-foot full stride. Keep the giant armored arm, horns, tusks and loincloth identical across frames. Not upright walking. No speed trails or VFX, just the complete original creature. Maintain equal size and common foot baseline."
+    },
+    "bosses": {
+      "zheng": "Production game enemy animation SPRITE SHEET. EXACTLY EIGHT complete full-body poses, 4 columns by 2 rows, equal-sized cells, same creature and same body size in EVERY cell, same camera, side profile FACING LEFT, fixed ground baseline at 90% cell height. Each entire silhouette including tails, horns, wings, claws fits with at least 12% transparent margin on ALL cell edges; nothing crosses into adjacent cells. No labels, text, grid, UI, floor, scenery, glow around body or ground shadow. True transparent alpha. Polished stylized 3D animated-film rendering matching a premium fantasy fighting game: matte detailed sculpted surfaces, readable dramatic silhouette, crisp violet/teal/gold accents, soft cinematic key light. Eight poses in order: idle threatening guard; forward step A; forward step B; attack anticipation crouch; claw/bite windup; full forward lunge attack; huge roaring ultimate-channel pose; hurt/recovery crouch. One coherent original monster, NO humanoid warrior or copied franchise creature. SUBJECT: colossal Shan Hai Jing-inspired ZHENG mountain predator, copper-red and charcoal armored tiger body, ONE dark jade forehead horn, FIVE long distinct tails fanned behind it, enormous powerful foreclaws, golden glowing eyes, moss-green crystalline ridges and ancient bronze armor shapes embedded in its shoulders. Fierce broad fanged tiger face. Quadruped with heavy tiger anatomy. Five tails must remain clearly readable and inside every frame. Forest-earth overlord. Emissive seams confined to body, no extra effects.",
+      "zhuyin": "Production game enemy animation SPRITE SHEET. EXACTLY EIGHT complete full-body poses, 4 columns by 2 rows, equal-sized cells, same creature and same body size in EVERY cell, same camera, side profile FACING LEFT, fixed ground baseline at 90% cell height. Each entire silhouette including tails, horns, wings, claws fits with at least 12% transparent margin on ALL cell edges; nothing crosses into adjacent cells. No labels, text, grid, UI, floor, scenery, glow around body or ground shadow. True transparent alpha. Polished stylized 3D animated-film rendering matching a premium fantasy fighting game: matte detailed sculpted surfaces, readable dramatic silhouette, crisp violet/teal/gold accents, soft cinematic key light. Eight poses in order: idle threatening guard; forward step A; forward step B; attack anticipation crouch; claw/bite windup; full forward lunge attack; huge roaring ultimate-channel pose; hurt/recovery crouch. One coherent original monster, NO humanoid warrior or copied franchise creature. SUBJECT: colossal Shan Hai Jing-inspired ZHUYIN ancient candle serpent, serpentine dark carmine dragon body coiled in a compact standing S silhouette, ominous pale jade mask-like HUMAN-INSPIRED but monstrous face, long swept black antler horns, one blazing amber eye, obsidian armored scale plates and purple bioluminescent fissures. No legs; lower body coils into a stable ground base. Large head held high and massive muscular serpent neck, NOT a cute snake. Cavern eclipse overlord. All coils and tail fit inside each cell. No background effects.",
+      "yinglong": "Production game enemy animation SPRITE SHEET. EXACTLY EIGHT complete full-body poses, 4 columns by 2 rows, equal-sized cells, same creature and same body size in EVERY cell, same camera, side profile FACING LEFT, fixed ground baseline at 90% cell height. Each entire silhouette including tails, horns, wings, claws fits with at least 12% transparent margin on ALL cell edges; nothing crosses into adjacent cells. No labels, text, grid, UI, floor, scenery, glow around body or ground shadow. True transparent alpha. Polished stylized 3D animated-film rendering matching a premium fantasy fighting game: matte detailed sculpted surfaces, readable dramatic silhouette, crisp violet/teal/gold accents, soft cinematic key light. Eight poses in order: idle threatening guard; forward step A; forward step B; attack anticipation crouch; claw/bite windup; full forward lunge attack; huge roaring ultimate-channel pose; hurt/recovery crouch. One coherent original monster, NO humanoid warrior or copied franchise creature. SUBJECT: colossal Shan Hai Jing-inspired YINGLONG winged storm dragon, four powerful clawed legs, long dark blue serpentine dragon head with swept golden antlers and silver whiskers, enormous muscular body with deep midnight-blue scales, two majestic feather-and-scale armored wings folded behind shoulders except in ultimate pose where they spread upward, cyan lightning seams on the armor and icy glowing eyes. Compact grounded quadruped silhouette, long dragon tail curled back within cell. Storm sovereign, majestic and terrifying, NOT European dragon or dinosaur. Keep horns, wing tips and tail entirely inside every cell.",
+      "paoxiao": "Production game enemy animation SPRITE SHEET. EXACTLY EIGHT complete full-body poses, 4 columns by 2 rows, equal-sized cells, same creature and same body size in EVERY cell, same camera, side profile FACING LEFT, fixed ground baseline at 90% cell height. Each entire silhouette including tails, horns, wings, claws fits with at least 12% transparent margin on ALL cell edges; nothing crosses into adjacent cells. No labels, text, grid, UI, floor, scenery, glow around body or ground shadow. True transparent alpha. Polished stylized 3D animated-film rendering matching a premium fantasy fighting game: matte detailed sculpted surfaces, readable dramatic silhouette, crisp violet/teal/gold accents, soft cinematic key light. Eight poses in order: idle threatening guard; forward step A; forward step B; attack anticipation crouch; claw/bite windup; full forward lunge attack; huge roaring ultimate-channel pose; hurt/recovery crouch. One coherent original monster, NO humanoid warrior or copied franchise creature. SUBJECT: colossal Shan Hai Jing-inspired PAOXIAO devouring furnace beast with the visual language of an ancient Taotie bronze mask, a broad monstrous goat-lion head, huge curled obsidian ram horns, enormous fanged jaw, wide muscular quadruped body armored in black iron and dark bronze ritual patterns, heavy gorilla-like forelimbs ending in hooked claws, short thick tail. Amber molten cracks inside armor and jaw, angry small ember eyes. A low, massive devouring silhouette, broad chest and thick legs, NOT a tiger and NOT humanoid. Furnace/volcanic overlord. No surrounding flames or scene."
+    },
+    "vfx": {
+      "claw": "Original premium anime fighting-game ULTIMATE VFX sprite sheet, exactly EIGHT sequential frames in a 4 columns by 2 rows grid, equal cells and generous transparent gutters. Isolated effect only on true transparent alpha. A COLOSSAL DEMONIC ROCK CLAW made of obsidian plates with luminous VIOLET fractures and white-lavender plasma edges, extending horizontally to the RIGHT. The same three enormous curved talons dominate the silhouette. Frame1 collapsing black-violet energy singularity; frame2 spectral three-clawed gauntlet forming; frame3 full enormous raised claw; frame4 gigantic rightward claw cleave with broad dark-violet energy ribbons; frame5 three long diagonal spatial RIFTS torn through the air; frame6 white-hot violet cataclysm impact with black stone shards; frame7 expanding broken eclipse halo and sharp lightning branches; frame8 thinning sparks and fragments. Film-quality hand-painted cel energy, graphic black ink contours, purple and magenta energy mass, near-white cores. Not a character, no body or face. Every effect stays completely inside its cell with at least 12% empty margin; no background glow rectangle, no floor, no captions or grid lines, no franchise symbols. Designed to fill 650px wide in our actual game.",
+      "eclipse": "Original anime action-game VFX atlas, EIGHT sequential frames, even 4 columns by 2 rows grid, true transparent background, one isolated effect per cell, fixed central anchor and wide empty transparent gutters. Mythic ancient-beast apocalypse effect: a black ECLIPSE ORB with broken concentric ritual arcs and hooked lightning branches, molten GOLD and crimson energy mass around a dark void core, ivory bright edges, splintering stone shards. Frame1 tiny dark seed with hairline sparks; frame2 compressed orb with curved arcs; frame3 orb expanding with three fierce horn-like energy hooks; frame4 gigantic flaring eclipse coronet; frame5 explosive dragon-maw-shaped energy shockfront opening toward the LEFT; frame6 huge radiant rupture and claw-like lightning; frame7 expanding torn halo; frame8 scattered embers. Premium hand-painted cel animation, dramatic shape language, opaque graphic outlines and angular flowing strokes. No literal monster body, no humans, no text, no labels, no UI, no grid, no scenery or floor. Every frame wholly within its cell; generous margins to prevent cropping. This is an original ultimate effect for giant mythic bosses."
+    }
+  },
+  "refinements": "Built-in image generation cleanup, same approved designs, four poses with transparent gutters; no programmatic pixel edits.",
+  "reference_image": "C:/Users/Sherlock Holmes/Documents/xwechat_files/wxid_7c9cc4tn7uvf22_e63d/temp/RWTemp/2026-10/9e20f478899dc29eb19741386f9343c8/b2d75802870796d1db8271d56d952d91.png",
+  "refinement_prompts": {
+    "hero/combat-clean.png": "Production cleanup of attached GAME SPRITE SHEET. Keep exactly the same yellow horned creature design, cream belly, green eyes, one giant obsidian purple-cracked claw arm, torn dark loincloth. Create FOUR complete poses arranged in a precise TWO columns TWO rows grid on a TRUE transparent background. Pose 0 calm right-facing combat guard, pose 1 forceful horizontal giant claw punch to right, pose 2 overhead giant claw ground slam, pose 3 upright fierce roaring energy channel with giant claw raised diagonally up. CRITICAL: all four characters completely inside their own square cell with a very large EMPTY transparent gutter of at least 15 percent on ALL FOUR SIDES of EACH cell. Every horn, giant claw tip and foot must fit fully. All feet on the same relative baseline 85 percent down each cell; same scale for all four bodies; do not stretch. No lighting backdrop, no gray, no orange glow, no floor shadow, no aura, no opaque background, no text. Just four isolated crisp fully cut-out full body characters. Redesign composition to be smaller within cells so limbs never cross cell borders. Square overall sheet.",
+    "bosses/zhuyin-clean.png": "Production cleanup of attached GAME SPRITE SHEET. Keep this original red black coiled mythic serpent god, angular jade monstrous mask face, antler horns, dark layered scales with subtle violet seams. Create FOUR complete poses arranged in precise TWO columns TWO rows square grid on a TRUE transparent background. All face LEFT. Pose 0 alert calm coiled idle; pose 1 arching head back windup and coiled body compressed; pose 2 leftward extended serpent strike roaring; pose 3 tall intimidating open mouth eclipse channel. All full coiled body, tail, horns completely visible inside EACH cell, with at least 15 percent transparent empty margins on ALL FOUR sides of EACH cell, never crossing cell boundaries. Body rendered same scale and stable coil ground baseline 85 percent down each cell. No background, no glow backdrop, no floor shadows, no VFX, no text. Matte rich game-ready 3D illustration matching design."
+  },
+  "research_only": [
+    "https://godotengine.org/asset-library/asset/5564",
+    "https://godotengine.org/asset-library/asset/5496"
+  ]
+}

@@ -1,0 +1,20 @@
+name: Publication checks
+"on": [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check resource hashes and documentation links
+        run: python3 tools/check_publication.py
+      - name: Check JavaScript syntax
+        run: |
+          node --check web/dist/app.js
+          node --check web/dist/cover.js
+      - name: Exercise interrupted and corrupt downloads
+        run: node tools/verify_web_loader.cjs

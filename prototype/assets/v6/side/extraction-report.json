@@ -1,0 +1,240 @@
+{
+  "method": "alpha only; external neutral flood fill; no RGB modifications",
+  "authorization": "2026-10-28 user explicitly requested programmatic extraction preserving the character",
+  "frames": [
+    {
+      "source": "art-source/character-standard/side-guard-01/naiwa-side-guard-review-01.png",
+      "output": "prototype/assets/v6/side/00-guard.png",
+      "source_sha256": "a7d0f5abe63db89ee42067b9d5c6009132bdf4c9500b91793485e5bf792e1754",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1134220,
+      "opaque_pixels": 432701,
+      "edge_pixels": 5607
+    },
+    {
+      "source": "art-source/character-standard/side-attack-01/02-jab-half.png",
+      "output": "prototype/assets/v6/side/02-jab-half.png",
+      "source_sha256": "29046af5511192a6976523ce8237db7602cf1d765c1f4f00beb345d42a2890f4",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1119467,
+      "opaque_pixels": 447172,
+      "edge_pixels": 5889
+    },
+    {
+      "source": "art-source/character-standard/side-attack-01/03-jab-hit.png",
+      "output": "prototype/assets/v6/side/03-jab-hit.png",
+      "source_sha256": "0379f9b84a7bc00a31e0261b1dbc6fc4f17aaec78531609952911eb1d16800c2",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1119101,
+      "opaque_pixels": 447465,
+      "edge_pixels": 5962
+    },
+    {
+      "source": "art-source/character-standard/side-attack-01/04-jab-recover.png",
+      "output": "prototype/assets/v6/side/04-jab-recover.png",
+      "source_sha256": "f71c8ad3d330bebcba86dd31dcfc339412d193e13fec832ea387b4d4133da4ac",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1130385,
+      "opaque_pixels": 436459,
+      "edge_pixels": 5684
+    },
+    {
+      "source": "art-source/character-standard/side-attack-01/05-changeover.png",
+      "output": "prototype/assets/v6/side/05-changeover.png",
+      "source_sha256": "5d4a5fba8a71609381810d05a3a5570aaccd85c7b36a699498b146af78fbb4aa",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1130106,
+      "opaque_pixels": 436821,
+      "edge_pixels": 5601
+    },
+    {
+      "source": "art-source/character-standard/side-attack-01/06-cross-half.png",
+      "output": "prototype/assets/v6/side/06-cross-half.png",
+      "source_sha256": "225b57ec13e043d3bd90b5eb7e974e209b89604eb7a6cfb0cfb53c90a87dbbb4",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1120967,
+      "opaque_pixels": 445641,
+      "edge_pixels": 5920
+    },
+    {
+      "source": "art-source/character-standard/side-attack-01/07-cross-hit.png",
+      "output": "prototype/assets/v6/side/07-cross-hit.png",
+      "source_sha256": "a3819d3e6d43485062017fcb79e57af5caa27c3a724dcb6db19fec4e5725be8c",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1116623,
+      "opaque_pixels": 449870,
+      "edge_pixels": 6035
+    },
+    {
+      "source": "art-source/character-standard/side-attack-01/08-cross-recover.png",
+      "output": "prototype/assets/v6/side/08-cross-recover.png",
+      "source_sha256": "620a08e96ffc9dac509ac961bb6e38909c51199cca76419af97405abb8d7bc99",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1131271,
+      "opaque_pixels": 435555,
+      "edge_pixels": 5702
+    },
+    {
+      "source": "art-source/character-standard/side-step-01/10-contact-a.png",
+      "output": "prototype/assets/v6/side/10-contact-a.png",
+      "source_sha256": "622fef3370a3cc5fcbec5ebad1885f25dcbc6566351d7faac4df90bba15909dc",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1134881,
+      "opaque_pixels": 432099,
+      "edge_pixels": 5548
+    },
+    {
+      "source": "art-source/character-standard/side-step-01/11-down-a.png",
+      "output": "prototype/assets/v6/side/11-down-a.png",
+      "source_sha256": "cab2739a7472549bdb1165ed4977ba6d0e28aeb9525eaae77ba831379af19d51",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1144656,
+      "opaque_pixels": 422568,
+      "edge_pixels": 5304
+    },
+    {
+      "source": "art-source/character-standard/side-step-01/12-pass-a.png",
+      "output": "prototype/assets/v6/side/12-pass-a.png",
+      "source_sha256": "815486493a6628e41f36693eecd65fa1b39835fea3243676bf11727e34b6ea7b",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1155748,
+      "opaque_pixels": 411714,
+      "edge_pixels": 5066
+    },
+    {
+      "source": "art-source/character-standard/side-step-01/13-reach-a.png",
+      "output": "prototype/assets/v6/side/13-reach-a.png",
+      "source_sha256": "6b896da68cb390152900e06dbbfdc39dee47cd1abc3ebe867a89cd0159724a61",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1136707,
+      "opaque_pixels": 430201,
+      "edge_pixels": 5620
+    },
+    {
+      "source": "art-source/character-standard/side-step-01/14-contact-b.png",
+      "output": "prototype/assets/v6/side/14-contact-b.png",
+      "source_sha256": "05bcbb82cb99cf70da80b5c63a9d066f769d37a8c501a6162b28d411bdf51960",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1135032,
+      "opaque_pixels": 431908,
+      "edge_pixels": 5588
+    },
+    {
+      "source": "art-source/character-standard/side-step-01/15-down-b.png",
+      "output": "prototype/assets/v6/side/15-down-b.png",
+      "source_sha256": "339ddbc8060d851a4074dda12634e8823dc9fdc1a38789d8209b1d6f2065b69d",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1141289,
+      "opaque_pixels": 425777,
+      "edge_pixels": 5462
+    },
+    {
+      "source": "art-source/character-standard/side-step-01/16-pass-b.png",
+      "output": "prototype/assets/v6/side/16-pass-b.png",
+      "source_sha256": "e7b8781cbd05a9379eb40b1fb3e146e5464b558bec7a602caf546abeaa6417ef",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1171908,
+      "opaque_pixels": 395944,
+      "edge_pixels": 4676
+    },
+    {
+      "source": "art-source/character-standard/side-step-01/17-reach-b.png",
+      "output": "prototype/assets/v6/side/17-reach-b.png",
+      "source_sha256": "ce69b89d54621b0dd0355b8db3dd9e8fe58ae5d26a17604e5bddcb7c2c775ba9",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1129991,
+      "opaque_pixels": 436763,
+      "edge_pixels": 5774
+    },
+    {
+      "source": "art-source/character-standard/side-reaction-01/20-hurt.png",
+      "output": "prototype/assets/v6/side/20-hurt.png",
+      "source_sha256": "07b86ac74fbcfacd7e6f060d011a6816f9d669261690622cb1016161a8a6880e",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1136358,
+      "opaque_pixels": 430716,
+      "edge_pixels": 5454
+    },
+    {
+      "source": "art-source/character-standard/side-reaction-01/21-air.png",
+      "output": "prototype/assets/v6/side/21-air.png",
+      "source_sha256": "7afb643707d321b756710915a168716b4e26470223e897047256606c5e9e3a5f",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1178005,
+      "opaque_pixels": 389912,
+      "edge_pixels": 4611
+    }
+  ]
+}

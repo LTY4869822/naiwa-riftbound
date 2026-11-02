@@ -1,0 +1,5 @@
+{
+	"checks": 56,
+	"failures": [],
+	"input": "Actual Input.parse_input_event for whiff, light combo, heavy, and left-facing heavy; staged targets. Other edge cases call combat hooks."
+}

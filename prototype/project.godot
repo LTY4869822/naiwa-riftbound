@@ -1,0 +1,41 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="奶蛙 · 碎片巡游"
+config/description="奶蛙桌宠与横版冒险：拖入文件回收、按大小成长、共享等级与游戏往返。"
+run/main_scene="res://v6/slice.tscn"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="NaiwaFragmentPrototype"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://assets/naiwa/idle.png"
+
+[autoload]
+
+Profile="*res://scripts/profile.gd"
+Wardrobe="*res://wardrobe/store.gd"
+Preferences="*res://remediation/controls.gd"
+Ascension="*res://ascension/store.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=800
+window/size/window_width_override=1152
+window/size/window_height_override=720
+window/subwindows/embed_subwindows=false
+window/stretch/mode="canvas_items"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.035, 0.065, 0.09, 1)

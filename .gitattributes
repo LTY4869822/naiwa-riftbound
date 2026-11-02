@@ -1,0 +1,20 @@
+* text=auto
+*.gd text eol=lf
+*.gdshader text eol=lf
+*.tscn text eol=lf
+*.tres text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.py text eol=lf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.png binary
+*.jpg binary
+*.webp binary
+*.gif binary
+*.nwp binary
+*.wav binary
+*.ogg binary
+*.gz binary
+*.ttf binary
+*.woff2 binary

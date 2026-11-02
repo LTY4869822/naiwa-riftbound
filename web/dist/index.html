@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#102b24">
+<title>奶蛙 · 碎片巡游 — 小家伙，大冒险</title>
+<meta name="description" content="和奶蛙一起出发。穿越四境十二关，连击、跃起、觉醒，挑战十二位守关首领。">
+<meta property="og:title" content="奶蛙 · 碎片巡游"><meta property="og:description" content="小家伙，大冒险。四境十二关，等你来闯。">
+<link rel="icon" href="naiwa.icon.png"><link rel="preload" href="cover/cover-bold.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="style.css?v=cover-3">
+</head><body><main id="stage">
+<canvas id="canvas" tabindex="0" aria-label="奶蛙碎片巡游游戏画面">当前浏览器不支持游戏画布，请使用新版浏览器。</canvas>
+<section id="cover" data-realm="moss" aria-label="奶蛙碎片巡游游戏封面">
+  <div class="landscape" aria-hidden="true">
+    <img class="scene current" src="cover/moss.webp" alt="" data-scene="moss" fetchpriority="high">
+    <img class="scene" src="cover/cavern.webp" alt="" data-scene="cavern" loading="lazy">
+    <img class="scene" src="cover/storm.webp" alt="" data-scene="storm" loading="lazy">
+    <img class="scene" src="cover/forge.webp" alt="" data-scene="forge" loading="lazy">
+  </div><div class="grain" aria-hidden="true"></div>
+  <header class="masthead">
+    <a class="wordmark" href="./" aria-label="奶蛙碎片巡游首页"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 34C10 23 8 6 24 5S38 22 41 34Q43 43 33 43H14Q4 43 8 34Z" fill="currentColor"/><circle cx="18" cy="20" r="3" fill="#122b25"/><circle cx="30" cy="20" r="3" fill="#122b25"/><path d="M19 29Q24 33 29 29" stroke="#122b25" stroke-width="2.5" fill="none" stroke-linecap="round"/></svg><span>NAIWA<small>碎片巡游</small></span></a>
+    <span class="header-note">一只奶蛙，一路冒险。</span>
+    <button class="quiet-button" id="guide-open" type="button">⌨ 操作指南 <span class="tiny-key">?</span></button>
+  </header>
+  <div class="hero-layout">
+    <div class="hero-copy">
+      <span class="chapter-label"><i></i> 四境十二关 · 横版奇幻冒险</span>
+      <div class="game-logo"><svg class="logo-ink" viewBox="0 0 440 220" aria-hidden="true"><path d="M27 50 88 45 57 19 189 29 211 9 250 33 376 20 362 49 418 70 395 105 434 142 381 150 398 187 274 178 249 205 186 182 55 201 71 163 17 151 42 116 9 86Z" fill="currentColor"/></svg><h1>奶蛙<span>碎片巡游</span></h1></div>
+      <p class="hero-tagline">小家伙，<strong>大冒险。</strong></p>
+      <p class="hero-description">从苔光森林到熔火深处。<br>连击、跃起、觉醒，闯出自己的冒险。</p>
+      <div class="launch-area" aria-live="polite">
+        <div class="launch-row" id="launch-row"><button id="start" type="button"><span class="start-arrow" aria-hidden="true">↗</span><span>开始冒险</span><kbd>ENTER</kbd></button><span class="play-note">无需安装<br>点开就玩</span></div>
+        <div id="loading" hidden><div class="load-heading"><span id="status">正在唤醒奶蛙…</span><output id="percent">0%</output></div><div class="load-track"><progress id="progress" max="100" value="0" aria-label="游戏资源加载进度"></progress><span aria-hidden="true">✦</span></div><small id="load-detail">首次需要下载约49MB资源，之后会更快。</small></div>
+        <p id="failure" hidden role="alert"></p><button id="retry" type="button" hidden>重新加载 ↻</button>
+        <p class="save-note">◇ 冒险进度保存在当前浏览器</p>
+      </div>
+    </div>
+    <div class="hero-stage">
+      <div class="orbit orbit-outer" aria-hidden="true"></div><div class="orbit orbit-inner" aria-hidden="true"></div>
+      <span class="hero-spark spark-one" aria-hidden="true">✦</span><span class="hero-spark spark-two" aria-hidden="true">✧</span>
+      <span class="floating-sticker sticker-top">准备好一起出发了吗？</span><div class="pet-shadow" aria-hidden="true"></div>
+      <button id="pet-greet" class="pet-button" type="button" aria-label="和奶蛙打个招呼"><img src="cover/naiwa.webp" alt="正面站立的黄色奶蛙，圆滚滚的肚子和绿色眼睛" draggable="false"><span class="pet-hi" aria-hidden="true">嗨！</span></button>
+      <span class="pet-caption">你的冒险搭子 <b>奶蛙</b><small>戳我一下！</small></span>
+      <span class="floating-sticker sticker-bottom"><b>12</b> 位守关首领 <svg viewBox="0 0 40 36" aria-hidden="true"><path d="m3 29 3-19 9 9 6-16 6 16 9-9 1 19Z" fill="none" stroke="currentColor" stroke-width="3"/></svg></span>
+    </div>
+  </div>
+  <nav class="realm-nav" aria-label="四境场景预览">
+    <div class="realm-heading"><span>下一站，<b>奇幻四境</b></span><small>场景预览 · 进入游戏后选择关卡</small></div>
+    <div class="realm-list">
+      <button class="realm active" type="button" data-realm="moss" aria-pressed="true"><img src="cover/moss-thumb.webp" alt="" width="120" height="76"><span class="realm-number">01</span><span class="realm-name">苔光遗境<small>森林 · 古树 · 遗迹</small></span><span class="realm-mark" aria-hidden="true">↗</span></button>
+      <button class="realm" type="button" data-realm="cavern" aria-pressed="false"><img src="cover/cavern-thumb.webp" alt="" width="120" height="76"><span class="realm-number">02</span><span class="realm-name">荧菌洞窟<small>荧光 · 水晶 · 秘境</small></span><span class="realm-mark" aria-hidden="true">↗</span></button>
+      <button class="realm" type="button" data-realm="storm" aria-pressed="false"><img src="cover/storm-thumb.webp" alt="" width="120" height="76"><span class="realm-number">03</span><span class="realm-name">风暴遗城<small>浮岛 · 雷霆 · 高塔</small></span><span class="realm-mark" aria-hidden="true">↗</span></button>
+      <button class="realm" type="button" data-realm="forge" aria-pressed="false"><img src="cover/forge-thumb.webp" alt="" width="120" height="76"><span class="realm-number">04</span><span class="realm-name">熔火工坊<small>熔岩 · 齿轮 · 烈焰</small></span><span class="realm-mark" aria-hidden="true">↗</span></button>
+    </div>
+  </nav>
+  <footer class="cover-footer"><div class="keys"><span><kbd>A D</kbd> 移动</span><span><kbd>SPACE ×2</kbd> 二段跳</span><span><kbd>J / K</kbd> 连击 / 重击</span><span><kbd>L</kbd> 闪避</span><span><kbd>U / R</kbd> 奥义 / 觉醒</span></div><a href="CREDITS.txt" target="_blank" rel="noopener">素材与许可 ↗</a></footer>
+</section>
+<dialog id="guide"><button class="dialog-close" id="guide-close" type="button" aria-label="关闭操作指南">×</button><span class="dialog-eyebrow">准备出发</span><h2>玩转奶蛙</h2><dl><div><dt><kbd>A</kbd> <kbd>D</kbd></dt><dd>向左 / 向右移动</dd></div><div><dt><kbd>SPACE</kbd> ×2</dt><dd>跳跃 / 空中二段跳</dd></div><div><dt><kbd>J</kbd> <kbd>K</kbd></dt><dd>节奏连击 / 重击破势</dd></div><div><dt><kbd>L</kbd></dt><dd>闪避，躲开敌人攻击</dd></div><div><dt><kbd>U</kbd> <kbd>R</kbd></dt><dd>奥义 / 满魔能后觉醒</dd></div><div><dt><kbd>ESC</kbd></dt><dd>暂停 / 继续游戏</dd></div></dl><p>手机请横屏，进入关卡后显示触屏按键。<br>存档保存在当前浏览器，与桌面版分别保存。</p></dialog>
+<button id="fullscreen" title="全屏游玩" aria-label="全屏游玩">⛶</button><p id="audio-hint" hidden>点击游戏画面即可操作并启用声音</p><p id="rotate" hidden>横过手机，开始巡游 ↻</p>
+</main><script src="cover.js?v=cover-3"></script><script src="naiwa.js" defer></script><script src="app.js?v=cover-3" defer></script></body></html>

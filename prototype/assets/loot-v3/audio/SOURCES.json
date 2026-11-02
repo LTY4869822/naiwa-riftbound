@@ -1,0 +1,49 @@
+{
+  "sample_rate": 48000,
+  "channels": 1,
+  "format": "PCM16",
+  "files": [
+    {
+      "file": "coin-1.wav",
+      "seconds": 0.52,
+      "peak_dbfs": -3.349821745875273,
+      "rms_dbfs": -18.368221193208296,
+      "sha256": "f2af7b96b754a0363807cf19b10e69bd3d7bfd0833226726ce90fca75d9e438c",
+      "construction": "Kenney handleCoins.ogg trimmed and filtered; original two modal metallic pings."
+    },
+    {
+      "file": "coin-2.wav",
+      "seconds": 0.52,
+      "peak_dbfs": -3.349821745875273,
+      "rms_dbfs": -18.510797029334103,
+      "sha256": "26e9b2e58d6e9202ebac816b548ce5a78a326da498e16c283dba45035d1c6419",
+      "construction": "Kenney handleCoins2.ogg trimmed and filtered; original two modal metallic pings."
+    },
+    {
+      "file": "heal-1.wav",
+      "seconds": 0.96,
+      "peak_dbfs": -3.349821745875273,
+      "rms_dbfs": -19.14760602263742,
+      "sha256": "72009ddc5e3f60a70d1768330594a73523582e423fce7dbbfdc3af7f897abe56",
+      "construction": "Original cork pop, three liquid bubbles and rising E-major glass chimes; deterministic additive and filtered-noise synthesis."
+    },
+    {
+      "file": "heal-2.wav",
+      "seconds": 0.96,
+      "peak_dbfs": -3.349821745875273,
+      "rms_dbfs": -19.309028085438918,
+      "sha256": "81824a26bfec7d14f31a5ceaac205a0892f7363836721e4ba056024075558206",
+      "construction": "Original cork pop, three liquid bubbles and rising E-major glass chimes; deterministic additive and filtered-noise synthesis."
+    }
+  ],
+  "source_pack": {
+    "page": "https://kenney.nl/assets/rpg-audio",
+    "archive_sha256": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b",
+    "license": "CC0-1.0",
+    "used": [
+      "Audio/handleCoins.ogg",
+      "Audio/handleCoins2.ogg"
+    ]
+  },
+  "unused_researched_pack": "https://kenney.nl/assets/casino-audio"
+}

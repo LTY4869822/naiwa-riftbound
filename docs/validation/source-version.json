@@ -1,0 +1,9 @@
+{
+  "capture_date": "2026-11-02",
+  "source_fingerprint": "9114ca11f59a57d25df0a7d7060fec8b10ff602f203f1891d1e0eb480358c1d3",
+  "main_sha256": "46ad2b0f6282295eb06ec3d3e389993931b691045650bfe438840f4d3d2cf5ca",
+  "source_is_current_workspace": true,
+  "images": "Regenerated from this snapshot; old rift-v4 screenshots excluded.",
+  "workspace_main_raw_sha256": "7f532f0f901ede023c0aaa1a7513b933a5fe238985d54dc0e6b529d0c8c1ea96",
+  "main_hash_normalization": "CRLF to LF only, to match Git checkout line endings"
+}

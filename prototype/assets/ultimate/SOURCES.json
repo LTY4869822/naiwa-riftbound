@@ -1,0 +1,41 @@
+{
+  "author": "tktk",
+  "collection": "Effekseer tktk vol.2",
+  "license": "CC0-1.0",
+  "gallery": "https://effekseer.github.io/zh-cn/contributes/tktk02/index.html",
+  "license_evidence": "https://effekseer.github.io/zh-cn/contribute.html",
+  "archive": "https://effekseer.github.io/contributes/tktk02.zip",
+  "use": "Original Godot composition using unmodified source texture parts; not a baked Effekseer effect.",
+  "files": [
+    {
+      "file": "Burst01.png",
+      "sha256": "dffbbd5821b3d9dd501738059dea01f2fde19c7e938b041c31044bb1c4858a30",
+      "modified": false
+    },
+    {
+      "file": "ElectricBall.png",
+      "sha256": "cbfabae8a7469d20562c4675310619ec9a2615c88eea81e078a720d041a3915a",
+      "modified": false
+    },
+    {
+      "file": "Shockwave.png",
+      "sha256": "0a0b7a1640d2fb2181a8923c7dc2032a0a3ae696ca8a259529229d26f5b2521c",
+      "modified": false
+    },
+    {
+      "file": "LaserMain01.png",
+      "sha256": "ed227c9cf459e17f36c872bf58e6e43ab1db9590ff6319279933445455b97400",
+      "modified": false
+    },
+    {
+      "file": "Shock_wave_ring001.png",
+      "sha256": "a902c3169287c337accf458dd651105210c9660da8770fbc535091e235eb8dac",
+      "modified": false
+    },
+    {
+      "file": "actionlines.png",
+      "sha256": "bf5b3f95e224df4a86caf8e3c7b058e4ef8f3169e061241652e3ad5da0061644",
+      "modified": false
+    }
+  ]
+}

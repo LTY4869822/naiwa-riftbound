@@ -1,0 +1,765 @@
+{
+  "version": 2,
+  "source_facing": 1,
+  "scale": 0.175,
+  "frames": [
+    {
+      "texture": "res://assets/v6/side/00-guard.png",
+      "anchor": [
+        537,
+        1334
+      ],
+      "hand": [
+        860,
+        540
+      ],
+      "sole_y": 1334,
+      "support_depth": 0,
+      "grounded": true,
+      "feet": [
+        {
+          "point": [
+            356.5,
+            1334
+          ],
+          "depth": 0,
+          "width": 14.612499999999999
+        },
+        {
+          "point": [
+            806.5,
+            1307
+          ],
+          "depth": -27,
+          "width": 19.162499999999998
+        }
+      ]
+    },
+    {
+      "texture": "res://assets/v6/side/02-jab-half.png",
+      "anchor": [
+        537,
+        1334
+      ],
+      "hand": [
+        990,
+        450
+      ],
+      "sole_y": 1334,
+      "support_depth": 0,
+      "grounded": true,
+      "feet": [
+        {
+          "point": [
+            356.0,
+            1334
+          ],
+          "depth": 0,
+          "width": 14.874999999999998
+        },
+        {
+          "point": [
+            808.0,
+            1308
+          ],
+          "depth": -26,
+          "width": 18.724999999999998
+        }
+      ]
+    },
+    {
+      "texture": "res://assets/v6/side/03-jab-hit.png",
+      "anchor": [
+        537,
+        1334
+      ],
+      "hand": [
+        1030,
+        446
+      ],
+      "sole_y": 1334,
+      "support_depth": 0,
+      "grounded": true,
+      "feet": [
+        {
+          "point": [
+            356.0,
+            1334
+          ],
+          "depth": 0,
+          "width": 14.874999999999998
+        },
+        {
+          "point": [
+            808.0,
+            1308
+          ],
+          "depth": -26,
+          "width": 18.724999999999998
+        }
+      ]
+    },
+    {
+      "texture": "res://assets/v6/side/04-jab-recover.png",
+      "anchor": [
+        537,
+        1334
+      ],
+      "hand": [
+        900,
+        492
+      ],
+      "sole_y": 1334,
+      "support_depth": 0,
+      "grounded": true,
+      "feet": [
+        {
+          "point": [
+            355.0,
+            1334
+          ],
+          "depth": 0,
+          "width": 14.874999999999998
+        },
+        {
+          "point": [
+            806.0,
+            1308
+          ],
+          "depth": -26,
+          "width": 19.075
+        }
+      ]
+    },
+    {
+      "texture": "res://assets/v6/side/05-changeover.png",
+      "anchor": [
+        537,
+        1334
+      ],
+      "hand": [
+        580,
+        645
+      ],
+      "sole_y": 1334,
+      "support_depth": 0,
+      "grounded": true,
+      "feet": [
+        {
+          "point": [
+            355.5,
+            1334
+          ],
+          "depth": 0,
+          "width": 14.7875
+        },
+        {
+          "point": [
+            804.5,
+            1307
+          ],
+          "depth": -27,
+          "width": 19.5125
+        }
+      ]
+    },
+    {
+      "texture": "res://assets/v6/side/06-cross-half.png",
+      "anchor": [
+        537,
+        1334
+      ],
+      "hand": [
+        916,
+        487
+      ],
+      "sole_y": 1334,
+      "support_depth": 0,
+      "grounded": true,
+      "feet": [
+        {
+          "point": [
+            356.0,
+            1334
+          ],
+          "depth": 0,
+          "width": 14.7
+        },
+        {
+          "point": [
+            805.0,
+            1307
+          ],
+          "depth": -27,
+          "width": 19.424999999999997
+        }
+      ]
+    },
+    {
+      "texture": "res://assets/v6/side/07-cross-hit.png",
+      "anchor": [
+        537,
+        1334
+      ],
+      "hand": [
+        1025,
+        463
+      ],
+      "sole_y": 1334,
+      "support_depth": 0,
+      "grounded": true,
+      "feet": [
+        {
+          "point": [
+            357.0,
+            1334
+          ],
+          "depth": 0,
+          "width": 14.524999999999999
+        },
+        {
+          "point": [
+            805.5,
+            1307
+          ],
+          "depth": -27,
+          "width": 19.3375
+        }
+      ]
+    },
+    {
+      "texture": "res://assets/v6/side/08-cross-recover.png",
+      "anchor": [
+        537,
+        1334
+      ],
+      "hand": [
+        740,
+        480
+      ],
+      "sole_y": 1334,
+      "support_depth": 0,
+      "grounded": true,
+      "feet": [
+        {
+          "point": [
+            356.5,
+            1334
+          ],
+          "depth": 0,
+          "width": 14.612499999999999
+        },
+        {
+          "point": [
+            804.5,
+            1307
+          ],
+          "depth": -27,
+          "width": 19.5125
+        }
+      ]
+    },
+    {
+      "texture": "res://assets/v6/side/10-contact-a.png",
+      "anchor": [
+        537,
+        1319
+      ],
+      "hand": [
+        740,
+        690
+      ],
+      "sole_y": 1319,
+      "support_depth": 0,
+      "grounded": true,
+      "feet": [
+        {
+          "point": [
+            273.5,
+            1319
+          ],
+          "depth": 0,
+          "width": 12.0
+        },
+        {
+          "point": [
+            834.5,
+            1301
+          ],
+          "depth": -18,
+          "width": 17.5875
+        }
+      ]
+    },
+    {
+      "texture": "res://assets/v6/side/11-down-a.png",
+      "anchor": [
+        537,
+        1311
+      ],
+      "hand": [
+        660,
+        750
+      ],
+      "sole_y": 1311,
+      "support_depth": 0,
+      "grounded": true,
+      "feet": [
+        {
+          "point": [
+            285.5,
+            1311
+          ],
+          "depth": 0,
+          "width": 12.0
+        },
+        {
+          "point": [
+            741.0,
+            1303
+          ],
+          "depth": -8,
+          "width": 19.95
+        }
+      ]
+    },
+    {
+      "texture": "res://assets/v6/side/12-pass-a.png",
+      "anchor": [
+        537,
+        1303
+      ],
+      "hand": [
+        640,
+        820
+      ],
+      "sole_y": 1303,
+      "support_depth": 0,
+      "grounded": true,
+      "feet": [
+        {
+          "point": [
+            464.0,
+            1240
+          ],
+          "depth": -27,
+          "width": 12.0
+        },
+        {
+          "point": [
+            741.5,
+            1303
+          ],
+          "depth": 0,
+          "width": 19.862499999999997
+        }
+      ]
+    },
+    {
+      "texture": "res://assets/v6/side/13-reach-a.png",
+      "anchor": [
+        537,
+        1310
+      ],
+      "hand": [
+        600,
+        860
+      ],
+      "sole_y": 1310,
+      "support_depth": 0,
+      "grounded": true,
+      "feet": [
+        {
+          "point": [
+            333.0,
+            1310
+          ],
+          "depth": 0,
+          "width": 12.6
+        },
+        {
+          "point": [
+            806.5,
+            1285
+          ],
+          "depth": -25,
+          "width": 12.0
+        }
+      ]
+    },
+    {
+      "texture": "res://assets/v6/side/14-contact-b.png",
+      "anchor": [
+        537,
+        1307
+      ],
+      "hand": [
+        370,
+        850
+      ],
+      "sole_y": 1307,
+      "support_depth": 0,
+      "grounded": true,
+      "feet": [
+        {
+          "point": [
+            273.5,
+            1293
+          ],
+          "depth": -14,
+          "width": 12.0
+        },
+        {
+          "point": [
+            826.5,
+            1307
+          ],
+          "depth": 0,
+          "width": 19.5125
+        }
+      ]
+    },
+    {
+      "texture": "res://assets/v6/side/15-down-b.png",
+      "anchor": [
+        537,
+        1307
+      ],
+      "hand": [
+        440,
+        850
+      ],
+      "sole_y": 1307,
+      "support_depth": 0,
+      "grounded": true,
+      "feet": [
+        {
+          "point": [
+            269.5,
+            1287
+          ],
+          "depth": -20,
+          "width": 12.0
+        },
+        {
+          "point": [
+            766.5,
+            1307
+          ],
+          "depth": 0,
+          "width": 19.862499999999997
+        }
+      ]
+    },
+    {
+      "texture": "res://assets/v6/side/16-pass-b.png",
+      "anchor": [
+        537,
+        1310
+      ],
+      "hand": [
+        560,
+        820
+      ],
+      "sole_y": 1310,
+      "support_depth": 0,
+      "grounded": true,
+      "feet": [
+        {
+          "point": [
+            612.5,
+            1310
+          ],
+          "depth": 0,
+          "width": 19.3375
+        },
+        {
+          "point": [
+            734.0,
+            1181
+          ],
+          "depth": -27,
+          "width": 12.0
+        }
+      ]
+    },
+    {
+      "texture": "res://assets/v6/side/17-reach-b.png",
+      "anchor": [
+        537,
+        1315
+      ],
+      "hand": [
+        680,
+        760
+      ],
+      "sole_y": 1315,
+      "support_depth": 0,
+      "grounded": true,
+      "feet": [
+        {
+          "point": [
+            272.0,
+            1315
+          ],
+          "depth": 0,
+          "width": 12.774999999999999
+        },
+        {
+          "point": [
+            847.5,
+            1250
+          ],
+          "depth": -27,
+          "width": 12.0
+        }
+      ]
+    },
+    {
+      "texture": "res://assets/v6/side/20-hurt.png",
+      "anchor": [
+        537,
+        1334
+      ],
+      "hand": [
+        680,
+        580
+      ],
+      "sole_y": 1334,
+      "support_depth": 0,
+      "grounded": true,
+      "feet": [
+        {
+          "point": [
+            356.5,
+            1334
+          ],
+          "depth": 0,
+          "width": 14.962499999999999
+        },
+        {
+          "point": [
+            806.5,
+            1308
+          ],
+          "depth": -26,
+          "width": 19.162499999999998
+        }
+      ]
+    },
+    {
+      "texture": "res://assets/v6/side/21-air.png",
+      "anchor": [
+        537,
+        1334
+      ],
+      "hand": [
+        690,
+        560
+      ],
+      "sole_y": 1240,
+      "support_depth": 0,
+      "grounded": false,
+      "feet": [
+        {
+          "point": [
+            404.5,
+            1197
+          ],
+          "depth": -27,
+          "width": 12.0
+        },
+        {
+          "point": [
+            568.0,
+            1240
+          ],
+          "depth": -27,
+          "width": 12.0
+        }
+      ]
+    }
+  ],
+  "clips": {
+    "idle": {
+      "frames": [
+        0
+      ],
+      "times": [
+        1
+      ],
+      "duration": 1
+    },
+    "run": {
+      "frames": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "times": [
+        0.12,
+        0.12,
+        0.12,
+        0.12,
+        0.12,
+        0.12,
+        0.12,
+        0.12
+      ],
+      "duration": 0.96
+    },
+    "settle_a": {
+      "frames": [
+        8,
+        0
+      ],
+      "times": [
+        0.07,
+        0.06
+      ],
+      "duration": 0.13
+    },
+    "settle_b": {
+      "frames": [
+        15,
+        8,
+        0
+      ],
+      "times": [
+        0.06,
+        0.05,
+        0.05
+      ],
+      "duration": 0.16
+    },
+    "attack0": {
+      "frames": [
+        3,
+        0,
+        1,
+        2,
+        1,
+        3,
+        0
+      ],
+      "times": [
+        0.05,
+        0.05,
+        0.04,
+        0.11,
+        0.035,
+        0.07,
+        0.125
+      ],
+      "duration": 0.48
+    },
+    "attack1": {
+      "frames": [
+        3,
+        4,
+        5,
+        6,
+        5,
+        7,
+        0
+      ],
+      "times": [
+        0.06,
+        0.07,
+        0.04,
+        0.12,
+        0.05,
+        0.09,
+        0.11
+      ],
+      "duration": 0.54
+    },
+    "attack2": {
+      "frames": [
+        0,
+        4,
+        5,
+        6,
+        5,
+        7,
+        0
+      ],
+      "times": [
+        0.07,
+        0.13,
+        0.05,
+        0.14,
+        0.07,
+        0.11,
+        0.15
+      ],
+      "duration": 0.72
+    },
+    "skill": {
+      "frames": [
+        0,
+        4,
+        5,
+        6,
+        5,
+        7,
+        0
+      ],
+      "times": [
+        0.08,
+        0.32,
+        0.08,
+        0.16,
+        0.06,
+        0.15,
+        0.2
+      ],
+      "duration": 1.05
+    },
+    "hurt": {
+      "frames": [
+        16,
+        7,
+        0
+      ],
+      "times": [
+        0.17,
+        0.07,
+        0.08
+      ],
+      "duration": 0.32
+    },
+    "dash": {
+      "frames": [
+        10,
+        17,
+        14
+      ],
+      "times": [
+        0.06,
+        0.06,
+        0.06
+      ],
+      "duration": 0.18
+    },
+    "air": {
+      "frames": [
+        0,
+        17,
+        8
+      ],
+      "times": [
+        0.08,
+        0.74,
+        0.18
+      ],
+      "duration": 1.0
+    }
+  },
+  "notes": "Entire authored frames only; fixed uniform scale; side profile throughout."
+}

@@ -1,0 +1,105 @@
+# 原型与素材说明
+
+## 2026-10-31 PixelFX 打击反馈
+
+`assets/pixelfx/` 七套颜色／加色光动画导出自 [patch-gg/pixelfx](https://github.com/patch-gg/pixelfx) 的 hit-spark、crit-hit、parry、ground-slam、blunt-hit 配方，固定提交 `fe7103c36d94e02f2d7df7d8f7a341e493837cde`，重新配置为本项目配色。MIT License，Copyright (c) 2026 Patch / Hugo Duprez；完整许可随目录 `LICENSE.txt` 保留。未使用展厅字体。导出选项与来源在 `../production/pixelfx/source.json`；新增12个命中 WAV 为本项目原创程序合成，来源说明在 `assets/pixelfx/audio/sources.json`。命中挂接、镜头反冲、人物闪色和音画分级由本项目 Godot 代码实现。详见 `../docs/PIXELFX_IMPACT_2026-10-31.md`。
+
+## 2026-10-30 二段跳与墨印遗物
+
+`assets/echo-v6/zheng-run.png`、`zheng-combat.png` 和 `relic-emblems.png` 经内置 image_gen 以既有狰的形象为参考生成／编辑，分别含8帧奔跑、8姿势战斗和4件遗物插画。提示词与原图位置在 `../production/echo-v6-sources.json`，原样PNG的SHA256、完整区域、锚点和共同缩放比例在同目录 `manifest.json`；测量脚本不改绘像素。界面通过本项目Godot代码绘制墨迹、票券、字形与触感反馈，参考 `inkwave-game-ui` 的设计语言，不提取喷射战士的商业美术。二段跳风环与编排为本项目实现，声音沿用既有音源，中文采用系统字体。详见 `../docs/DOUBLE_JUMP_AND_ECHO_2026-10-30.md`。
+
+## 2026-10-30 幻彩四境与独立阵容
+
+`assets/biomes-v5/` 的十二个明快卡通奇幻场景、四平台图集，以及棘冠鹿后、镜丝蛛后、鸣钟巨灵、熔轮暴君、晶壳岩蟹、悬灯水母、风刃卫、天帆鳐、炉渣猎犬、齿轮铳兵、熔芯蛛十一套八姿势角色图集，均经内置 image_gen 生成。用户比较三版概念图后选择第一种风格，当前场景按该风格重绘。`../production/biomes-v5-*.json` 保存提示词与原图来源；`assets/biomes-v5/manifest.json` 保存原样 PNG 的 SHA256、alpha区域与接触锚点，测量脚本不改绘像素。关卡阵容、技能层级、四种新增首领大招及动态表现为本项目实现，复用的声音与基础 VFX 依照下文原有来源。详见 `../docs/BIOMES_2026-10-30.md`。
+
+## 2026-10-30 裂界荒神
+
+`assets/rift-v4/` 中裂缝、岩爪、龙雷、森罗根冠、蚀日蛇影、熔火巨口六套8帧图集由内置 image_gen 原创生成；五套通过同一工具重新排版补全边缘和透明留白。初始/编辑提示词、最终原样PNG、源文件和SHA256/alpha区域/锚点保存在 `production.json`、`manifest.json`；测量脚本没有改绘像素。身体揭露着色器、登场编排、三阶段与评分选招、精准反击、遗物UI及特效接入为本项目代码。声音沿用项目已注明来源的合成/CC0素材。当前规则与验证见 `../docs/RIFT_2026-10-30.md`；未从商业游戏提取角色或特效。
+
+## 2026-10-30 金币与翡翠药露
+
+`assets/loot-v3/coin.png`（8帧）与 `potion.png` 由内置 image_gen 原创生成，提示词、原图来源、alpha 测量区域与 SHA256 随目录保留；未以代码改绘图片。金币声音使用 [Kenney RPG Audio](https://kenney.nl/assets/rpg-audio) 的 `handleCoins.ogg` / `handleCoins2.ogg`（CC0），原录音与许可保存在 `assets/loot-v3/audio/source/` 及 `KENNEY-CC0.txt`；截取/滤波后叠加本项目金属泛音。药露开瓶、泡泡、回复和弦由本项目合成。混音参数、声音摘要与可复现脚本见 `audio/SOURCES.json`、`../tools/build_loot_sounds.py`。掉落呈现、吸收反馈与声音池为本项目实现。详见 `../docs/LOOT_PRESENTATION_2026-10-30.md`。
+
+## 2026-10-30 连战与魔神动作重做
+
+`assets/loop-v2/run.png`、`combat.png`、`morph.png` 由内置 imagegen 按用户的岩甲巨爪形象生成，各8个姿势。原始 RGBA 文件原样接入；提示词、源文件、SHA256、完整轮廓与脚底锚点保存在同目录 `production.json` / `manifest.json`。测量脚本只读取 alpha 与元数据，不改绘像素。变身遮罩、首领四类招式/特效、金币掉落、连战与装备 UI 为本项目制作。原有画布和贴图依赖沿用下文已注明来源，未从火影忍者或王者荣耀提取游戏资产。当前说明见 `../docs/COMBAT_LOOP_2026-10-30.md`；后续各段保留历次记录。
+
+## 2026-10-29 魔神觉醒与山海异兽
+
+新增觉醒形态以用户提供的黄身白腹、双角、黑岩巨爪、紫色裂纹三视图为参考，经内置imagegen制作完整姿势与变身中间形态；四只山海经灵感的原创异兽，以及巨爪/日蚀特效图集同样由内置imagegen生成。原图、提示词、SHA256、Alpha测量和Atlas锚点见 `assets/ascension/production.json`、`manifest.json`；像素未通过程序改绘。运行采用完整图的渐变与等比缩放。
+
+Godot Asset Library的Stylized 2D VFX Lite、VFX 2D Free仅作调研，未引入依赖。特效代码继续使用下文记录的combat-vfx-demo MIT历史画布基础；新增变身编排、紫雷巨爪、日蚀/吞焰、异兽行为、十二关与魔能存档为本项目实现。详见 `../docs/ASCENSION_2026-10-29.md`。
+
+## 2026-10-28 敌人攻击特效
+
+爪痕、轨迹网格、批处理魔法画布、风/雷几何与部分着色器来自 [yuewen-huang/combat-vfx-demo的MIT历史版本](https://github.com/yuewen-huang/combat-vfx-demo/tree/efbcb0e054d6a6ca04df614e95b410afa9aae21b)，固定提交`efbcb0e054d6a6ca04df614e95b410afa9aae21b`。Copyright (c) 2026 yuewen-huang。原MIT许可证随`third_party/combat_vfx/LICENSE`保留，来源和改动摘要见同目录`SOURCE.json`。没有复制最新非商用版本新增的实现。
+
+敌人事件适配、九类材质身份、流萤弹、角撞砂石、孢雾与孢种、四只Boss的表现编排、真实危险区域同步和演武入口由本项目制作；未重新绘制角色贴图。见`../docs/ENEMY_ATTACK_VFX.md`。
+
+## 2026-10-28 果冻关卡地图
+
+选关卡片与弹性、墨团扩张、焦点跟随参考用户指定的 [amiaoapp/inkwave](https://github.com/amiaoapp/inkwave) 的 MIT 源码参数，原许可保留于 `assets/notices/INKWAVE-MIT.txt`，文件 SHA 见 `../research/route-jelly-reference.json`。Godot 卡片绘制、着色器与交互为本项目实现；地图预览沿用现有四张场景，未复制参考游戏的角色、Logo、图片或字体。实现与验证见 `../docs/ROUTE_JELLY_UI.md`。
+
+## 2026-10-28 四境巡游
+
+荧菌洞窟、风暴遗城、熔火工坊三张背景，以及荧冠菌王、雷翼君王、熔炉巨像三套8姿势图集，由内置image_gen生成。原始PNG在 `assets/campaign/`，提示词、源路径、摘要和锚点一并保留。原苔光遗境与古树守卫继续使用现有项目资产；未替换玩家形象。新关卡、地图卡片、Boss行为和领域特效由本项目代码制作。来源与验证见 `../docs/FOUR_REALMS.md`。
+
+## 2026-10-28 贯穿重拳
+
+大招使用 tktk 提供给 [Effekseer 的 vol.2 素材](https://effekseer.github.io/zh-cn/contributes/tktk02/index.html) 中的六张原始部件贴图（CC0），原样文件与 SHA256 见 `assets/ultimate/SOURCES.json`。Godot 分层、动作时序、颜色组合和合成音效为本项目制作；没有修改奶娃人物 PNG。背景冲击波改写自 [Czu / godot-shockwave-shader](https://github.com/shizu0817/godot-shockwave-shader)，MIT 原文与来源见 `assets/notices/SHOCKWAVE-MIT.txt`。实际集成范围见 `../docs/ULTIMATE_IMPLEMENTATION.md`。
+
+## 2026-10-28 森林敌人扩展
+
+新增荆背甲虫、孢灯术士、夜羽鸦图集由内置image_gen生成，每种8姿势；原始PNG、提示词、来源路径和SHA位于 `assets/enemies-expansion/`。运行时采用AtlasTexture和逐帧锚点，原始PNG不改绘。实际默认侧身角色入口为 `v6/slice.tscn`，下文旧入口说明保留为历史记录。
+
+攻击特效使用 [Kenney Particle Pack](https://kenney.nl/assets/particle-pack) 的7张透明纹理，CC0 1.0；原许可与来源摘要位于 `assets/enemies-expansion/vfx/`。分层、蓄力、拖尾与冲击波制作参考 [GDQuest教程](https://www.gdquest.com/news/2020/05/godot-vfx-secrets-out/)，未复制其源码。新敌人行为、预警几何和特效时序为本项目制作。详见 `../docs/FOREST_ENEMIES.md`。
+
+## 2026-10-28 重构更新
+
+当前入口为 `v3/slice.tscn`。桌宠已改为从 Naiwa 原源码编译的独立 WinForms 宿主，完整原素材和原笑声保留在 `../desktop/`，许可证与原 README 同时保留。没有运行参考仓库的预编译 EXE。
+
+玩家战斗形象使用原始 `assets/naiwa/idle.png`，以运行时网格做受限运动；不再使用第二版生成动作图，也不再使用曾尝试的临时奶蛙立体模型。敌人关节模型、档案场景和 UI 为本任务代码制作；音效延用本地合成声音。原角色衍生使用仍受原许可范围约束。下文第一、二版说明保留为历史记录。
+
+详见 `../docs/REBUILD_V3.md`。
+
+此处记录的早期阶段为个人本地原型；2026-11-02公开整理说明和许可范围见仓库根目录。
+
+## 奶蛙形象
+
+- 作者：[yugh6](https://github.com/yugh6)，原项目：[Naiwa / 奶蛙桌宠](https://github.com/yugh6/Naiwa)
+- 采用的仓库提交：`72c763fe1349fb08a06f976e1709f4f5f80e09c7`
+- 原仓库许可证：PolyForm Noncommercial License 1.0.0；原版权、分享与公开传播声明见随附原 README。
+- 本地保留文件：`assets/notices/NAIWA-LICENCE.txt`、`assets/notices/NAIWA-README.md`。
+- 原素材来自仓库 `素材.nwp`：idle、look、blink 和部分 laugh PNG。提取后未重绘角色。
+- 本原型复用了角色图像，未运行原仓库预编译 EXE，也未将原 WinForms 程序当作游戏引擎。
+- 第一版战斗由位移、旋转、缩放与特效组合；第二版以原图为参考，通过内置 image_gen 生成了跑步、攻击、受击各 4 帧，并进行了透明通道清理、分离和脚底对齐。该衍生内容不改变原角色的授权限制。短开心动作取大笑素材的前 3 秒抽帧，不是原项目完整 14 秒演出。
+- 未使用原笑声音频；游戏内音效为本原型生成的简单合成提示音。
+
+这套素材不是 MIT/CC0 素材。后续商业开发或公开传播需要按原作者声明处理授权，或替换角色资源；本次个人本地原型不构成额外授权。
+
+## 原型新增部分
+
+Godot 场景、战斗、虚拟文件、成长、模式切换、界面、几何敌人、环境与合成提示音由本次任务制作。其他调研项目未作为代码依赖复制进入此原型。
+
+第二版的档案遗境背景、损坏档案猎犬和档案守卫图像由内置 image_gen 生成，原始图、提示词与裁切记录在 `art-source/v2/`。游戏 UI 和战斗特效为代码绘制，没有复制参考游戏的图像或代码。参考项目见 `docs/COMBAT_V2.md`。
+
+Godot Engine 由 Godot Engine contributors 开发，使用 MIT 许可证。运行器的许可证见 `tools/GODOT-LICENSE.txt`（下载完成后保存）。
+
+
+## 2026-10-28 二维战斗篇 v5
+
+本轮将原 Naiwa 静态图和原眨眼图用于局部骨骼动画；没有替换角色脸部资产。森林、叶甲兽、灯蛾和古树守卫来自本项目此前生成的探索画稿，不是从其他游戏提取。原样图集位置、遮挡补底范围、具体生成文件来源和实现限制记录于 `../docs/REBUILD_V5.md`。
+
+## 2026-10-28 菜单 V2
+
+菜单正面待机和单张正面反应姿势由内置 imagegen 按用户提供的三视图重绘，提示与源文件记录在 `assets/menu-v2/pet/FRONT_ASSET_PROVENANCE.md`。完整大笑使用原 Naiwa 422帧序列与原声，不再是早期的抽帧短循环；原许可、序列参数和SHA随 `assets/menu-v2/pet/` 保留。原片有转身和笑倒，不声称它全程正面。此处更新菜单资产来源，上文旧版记录仅作历史说明。
+
+## 2026-10-28 动漫攻击动画
+
+火焰、雷电、风刃、孢雾四套八帧图集由内置 imagegen 为本项目原创生成。原图和完整提示词见 `assets/foe-vfx-toon/`，源文件名和SHA见该目录`SOURCE.json`。木刺、土尘、聚能球、命中爆点和动画编排为本项目实现。火影忍者游戏的忍术表现是视觉方向参考，本轮未提取其游戏素材。
+
+菜单组织与动效参数参考 [amiaoapp/inkwave](https://github.com/amiaoapp/inkwave)，作者版权与 MIT 源码信息见其仓库。当前 Godot 控件、图标、着色器和中文标题为本项目实现，未使用参考游戏的角色、Logo或场景美术。来源文件与SHA记录见 `../docs/MENU_V2_REFERENCE.md`。
+
+## 2026-10-28 战斗 HUD
+
+人物仪表、金属边框和13类状态/技能纹章为本项目原生绘制，头像复用菜单正面角色资产。Hades与Hollow Knight仅作为信息组织参考，没有复制其图像、图标或字体；来源与观察边界见 `../docs/HUD_ART_DIRECTION.md`。战斗仪表与状态绑定见 `../docs/HUD_UI.md`。

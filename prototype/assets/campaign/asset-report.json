@@ -1,0 +1,80 @@
+{
+  "cavern": {
+    "file": "prototype\\assets\\campaign\\cavern.png",
+    "size": [
+      1586,
+      992
+    ],
+    "mode": "RGB",
+    "sha256": "332d487b9702d6b3730997c0bca6a6cf9c22f82af0f1694eeb6f974898558f79",
+    "original_bytes_preserved": true,
+    "source": "C:\\Users\\Sherlock Holmes\\.codex\\generated_images\\01a180ef-7ca6-7bb3-95a5-32cb97522799\\exec-c15887c0-f3bd-4e7d-a1cb-5ce353d90898.png",
+    "tool": "image_gen",
+    "type": "background"
+  },
+  "storm": {
+    "file": "prototype\\assets\\campaign\\storm.png",
+    "size": [
+      1586,
+      992
+    ],
+    "mode": "RGB",
+    "sha256": "ba5e396b0e1226debc7f165365a72ae4e8c7760a687978497f34d55fc17f9295",
+    "original_bytes_preserved": true,
+    "source": "C:\\Users\\Sherlock Holmes\\.codex\\generated_images\\01a180ef-7ca6-7bb3-95a5-32cb97522799\\exec-5ae57b6a-bbc5-435e-95dc-952b295070ef.png",
+    "tool": "image_gen",
+    "type": "background"
+  },
+  "forge": {
+    "file": "prototype\\assets\\campaign\\forge.png",
+    "size": [
+      1586,
+      992
+    ],
+    "mode": "RGB",
+    "sha256": "ce0ed11c9bf3e0fa401923d64bce8a5a2d923910def256fe306b5b9c2c1524ac",
+    "original_bytes_preserved": true,
+    "source": "C:\\Users\\Sherlock Holmes\\.codex\\generated_images\\01a180ef-7ca6-7bb3-95a5-32cb97522799\\exec-a7326653-1ab5-4ad4-9c9c-68cf44c709b8.png",
+    "tool": "image_gen",
+    "type": "background"
+  },
+  "mycelium_boss": {
+    "file": "prototype\\assets\\campaign\\bosses\\mycelium_boss.png",
+    "size": [
+      1774,
+      887
+    ],
+    "mode": "RGBA",
+    "sha256": "ab9534939d101ae0488c4990ec4313fc14cb2841413109dda56e9563bb9aaf9b",
+    "original_bytes_preserved": true,
+    "source": "C:\\Users\\Sherlock Holmes\\.codex\\generated_images\\01a180ef-7ca6-7bb3-95a5-32cb97522799\\exec-2f2b22fb-cc1b-4bb7-a8be-d92c256814a2.png",
+    "tool": "image_gen",
+    "type": "sprite"
+  },
+  "tempest_boss": {
+    "file": "prototype\\assets\\campaign\\bosses\\tempest_boss.png",
+    "size": [
+      1774,
+      887
+    ],
+    "mode": "RGBA",
+    "sha256": "946d28dd9a21998f7ed88eda012e8b1c67ba4ddaa89d385a45e578cb586ed74c",
+    "original_bytes_preserved": true,
+    "source": "C:\\Users\\Sherlock Holmes\\.codex\\generated_images\\01a180ef-7ca6-7bb3-95a5-32cb97522799\\exec-abf2e61a-c5b5-482e-8ce7-8768d9d66b1c.png",
+    "tool": "image_gen",
+    "type": "sprite"
+  },
+  "cinder_boss": {
+    "file": "prototype\\assets\\campaign\\bosses\\cinder_boss.png",
+    "size": [
+      1774,
+      887
+    ],
+    "mode": "RGBA",
+    "sha256": "ebd7f5a3477a2dc2a586ebd8be36e2c7952a01feb5f0c8b77474f55a312ddecf",
+    "original_bytes_preserved": true,
+    "source": "C:\\Users\\Sherlock Holmes\\.codex\\generated_images\\01a180ef-7ca6-7bb3-95a5-32cb97522799\\exec-dd98077b-50ab-4d4c-8f82-77488e27e045.png",
+    "tool": "image_gen",
+    "type": "sprite"
+  }
+}

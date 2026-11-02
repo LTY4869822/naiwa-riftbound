@@ -1,0 +1,175 @@
+{
+  "method": "alpha only; external neutral flood fill; no RGB modifications",
+  "authorization": "2026-10-28 user explicitly requested programmatic extraction preserving the character",
+  "frames": [
+    {
+      "source": "art-source/character-standard/naiwa-front-review-01.png",
+      "output": "prototype/assets/v6/approved/00-idle.png",
+      "source_sha256": "a365fc86648d566982f7bbf4e61055e9bf3d14ca0d5c8bb8a4b75186004b259a",
+      "size": [
+        1086,
+        1449
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1032503,
+      "opaque_pixels": 534749,
+      "edge_pixels": 6362
+    },
+    {
+      "source": "art-source/character-standard/attack-01/01-prepare.png",
+      "output": "prototype/assets/v6/approved/01-prepare.png",
+      "source_sha256": "075f8ce3f03513686d32f5e0d57bc8889901217488c06b7943582052e4291c59",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1070084,
+      "opaque_pixels": 497188,
+      "edge_pixels": 5256
+    },
+    {
+      "source": "art-source/character-standard/attack-01/02-guard.png",
+      "output": "prototype/assets/v6/approved/02-guard.png",
+      "source_sha256": "6f29cd64c6aca3ea526ac15328bc1636fd8bf4983dddc77d420bb3ece5253d2c",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1079353,
+      "opaque_pixels": 487914,
+      "edge_pixels": 5261
+    },
+    {
+      "source": "art-source/character-standard/attack-01/03-extend.png",
+      "output": "prototype/assets/v6/approved/03-extend.png",
+      "source_sha256": "9b26c112305f4e94f5beaa829f007243802b6ec22fdc8a4d85684e9da854baac",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1094304,
+      "opaque_pixels": 472940,
+      "edge_pixels": 5284
+    },
+    {
+      "source": "art-source/character-standard/attack-01/04-strike.png",
+      "output": "prototype/assets/v6/approved/04-strike.png",
+      "source_sha256": "6de9f35d1cf2b6d979753bdab369c0bc1faff39ea4c7b3e21f19a0fa3c128c4a",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1090350,
+      "opaque_pixels": 476773,
+      "edge_pixels": 5405
+    },
+    {
+      "source": "art-source/character-standard/attack-01/05-recoil.png",
+      "output": "prototype/assets/v6/approved/05-recoil.png",
+      "source_sha256": "23c6667669d48a45686a91a4061e4750586993c25458d0fd0c8b59694957d6fe",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1081054,
+      "opaque_pixels": 486191,
+      "edge_pixels": 5283
+    },
+    {
+      "source": "art-source/character-standard/attack-01/06-right-guard.png",
+      "output": "prototype/assets/v6/approved/06-right-guard.png",
+      "source_sha256": "ac67aff807bc0c42ee41909057e331b46206e38b97838264ed7184202514266a",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1081692,
+      "opaque_pixels": 485565,
+      "edge_pixels": 5271
+    },
+    {
+      "source": "art-source/character-standard/attack-01/07-right-extend.png",
+      "output": "prototype/assets/v6/approved/07-right-extend.png",
+      "source_sha256": "f9bbc1b7f4f2973ea7d7f3a8bd59977085bcf1d3e43406d5641214eea4f191dd",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1094504,
+      "opaque_pixels": 472623,
+      "edge_pixels": 5401
+    },
+    {
+      "source": "art-source/character-standard/attack-01/08-right-strike.png",
+      "output": "prototype/assets/v6/approved/08-right-strike.png",
+      "source_sha256": "08a6ba208757729228e10f2782c619ed0b629f6d61b15a806d7c6acdb2dd92d9",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1091822,
+      "opaque_pixels": 475269,
+      "edge_pixels": 5437
+    },
+    {
+      "source": "art-source/character-standard/attack-01/09-right-recoil.png",
+      "output": "prototype/assets/v6/approved/09-right-recoil.png",
+      "source_sha256": "9a8dfbf208cac9227b37862e2d7d751ff64b9b6c9d3618a3b40ef12fd4ad838e",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1090597,
+      "opaque_pixels": 476707,
+      "edge_pixels": 5224
+    },
+    {
+      "source": "art-source/character-standard/step-01/10-step-contact.png",
+      "output": "prototype/assets/v6/approved/10-step-contact.png",
+      "source_sha256": "e9f4fe9806724af9f9ae6067cc62e1721ac5890e0a999bbcb838b624fef7234b",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1045779,
+      "opaque_pixels": 520794,
+      "edge_pixels": 5955
+    },
+    {
+      "source": "art-source/character-standard/step-01/11-step-gather.png",
+      "output": "prototype/assets/v6/approved/11-step-gather.png",
+      "source_sha256": "76a6379a543b376f6bec93984fc69ffaf9d9be665a6b999b72a07140206c38c0",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1064004,
+      "opaque_pixels": 502956,
+      "edge_pixels": 5568
+    },
+    {
+      "source": "art-source/character-standard/step-01/12-step-transfer.png",
+      "output": "prototype/assets/v6/approved/12-step-transfer.png",
+      "source_sha256": "6f2b1959c8b86b7b0c4abdb1548a7a85efa5b3252cf34c92c9dc6f4aa30ee643",
+      "size": [
+        1086,
+        1448
+      ],
+      "rgb_identical": true,
+      "transparent_pixels": 1053704,
+      "opaque_pixels": 513176,
+      "edge_pixels": 5648
+    }
+  ]
+}

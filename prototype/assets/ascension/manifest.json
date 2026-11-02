@@ -1,0 +1,2174 @@
+{
+  "version": 1,
+  "pixel_edits": false,
+  "assets": {
+    "hero/combat.png": {
+      "file": "res://assets/ascension/hero/combat.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "grid": [
+        4,
+        2
+      ],
+      "frames": [
+        {
+          "region": [
+            25,
+            58,
+            310,
+            454
+          ],
+          "pivot": [
+            167.0,
+            454
+          ],
+          "height": 454,
+          "bounds": [
+            25,
+            58,
+            335,
+            512
+          ]
+        },
+        {
+          "region": [
+            390,
+            74,
+            378,
+            438
+          ],
+          "pivot": [
+            186.0,
+            438
+          ],
+          "height": 438,
+          "bounds": [
+            6,
+            74,
+            384,
+            512
+          ]
+        },
+        {
+          "region": [
+            768,
+            152,
+            384,
+            293
+          ],
+          "pivot": [
+            192.0,
+            293
+          ],
+          "height": 293,
+          "bounds": [
+            0,
+            152,
+            384,
+            445
+          ]
+        },
+        {
+          "region": [
+            1152,
+            115,
+            371,
+            330
+          ],
+          "pivot": [
+            192.0,
+            330
+          ],
+          "height": 330,
+          "bounds": [
+            0,
+            115,
+            371,
+            445
+          ]
+        },
+        {
+          "region": [
+            25,
+            512,
+            359,
+            446
+          ],
+          "pivot": [
+            167.0,
+            446
+          ],
+          "height": 446,
+          "bounds": [
+            25,
+            0,
+            384,
+            446
+          ]
+        },
+        {
+          "region": [
+            384,
+            512,
+            384,
+            443
+          ],
+          "pivot": [
+            192.0,
+            443
+          ],
+          "height": 443,
+          "bounds": [
+            0,
+            0,
+            384,
+            443
+          ]
+        },
+        {
+          "region": [
+            768,
+            601,
+            384,
+            354
+          ],
+          "pivot": [
+            192.0,
+            354
+          ],
+          "height": 354,
+          "bounds": [
+            0,
+            89,
+            384,
+            443
+          ]
+        },
+        {
+          "region": [
+            1152,
+            669,
+            337,
+            290
+          ],
+          "pivot": [
+            192.0,
+            290
+          ],
+          "height": 290,
+          "bounds": [
+            0,
+            157,
+            337,
+            447
+          ]
+        }
+      ],
+      "touching_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "source": "exec-bb639767-31cd-4a4c-a599-0ae1da116bed.png",
+      "sha256": "fb9d1cbaf078c0e64fed2d7d62884f0856df90e84ff40ebd0951646ed4e9ad9c"
+    },
+    "hero/morph.png": {
+      "file": "res://assets/ascension/hero/morph.png",
+      "dimensions": [
+        1358,
+        1159
+      ],
+      "grid": [
+        2,
+        2
+      ],
+      "frames": [
+        {
+          "region": [
+            171,
+            37,
+            363,
+            525
+          ],
+          "pivot": [
+            168.5,
+            525
+          ],
+          "height": 525,
+          "bounds": [
+            171,
+            37,
+            534,
+            562
+          ]
+        },
+        {
+          "region": [
+            848,
+            24,
+            364,
+            537
+          ],
+          "pivot": [
+            170.5,
+            537
+          ],
+          "height": 537,
+          "bounds": [
+            169,
+            24,
+            533,
+            561
+          ]
+        },
+        {
+          "region": [
+            195,
+            587,
+            399,
+            545
+          ],
+          "pivot": [
+            144.5,
+            545
+          ],
+          "height": 545,
+          "bounds": [
+            195,
+            7,
+            594,
+            552
+          ]
+        },
+        {
+          "region": [
+            815,
+            584,
+            450,
+            548
+          ],
+          "pivot": [
+            203.5,
+            548
+          ],
+          "height": 548,
+          "bounds": [
+            136,
+            4,
+            586,
+            552
+          ]
+        }
+      ],
+      "touching_cells": [],
+      "source": "exec-a1c5836d-1a6c-45f8-b7f1-72d97f2e9c32.png",
+      "sha256": "93b6751ff40bb561de7707ad0fe5065d86a9debe46f6c16d406e7cb75760794e"
+    },
+    "hero/run.png": {
+      "file": "res://assets/ascension/hero/run.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "grid": [
+        2,
+        2
+      ],
+      "frames": [
+        {
+          "region": [
+            82,
+            105,
+            591,
+            372
+          ],
+          "pivot": [
+            302.0,
+            372
+          ],
+          "height": 372,
+          "bounds": [
+            82,
+            105,
+            673,
+            477
+          ]
+        },
+        {
+          "region": [
+            848,
+            73,
+            610,
+            400
+          ],
+          "pivot": [
+            304.0,
+            400
+          ],
+          "height": 400,
+          "bounds": [
+            80,
+            73,
+            690,
+            473
+          ]
+        },
+        {
+          "region": [
+            93,
+            573,
+            577,
+            384
+          ],
+          "pivot": [
+            291.0,
+            384
+          ],
+          "height": 384,
+          "bounds": [
+            93,
+            61,
+            670,
+            445
+          ]
+        },
+        {
+          "region": [
+            850,
+            580,
+            609,
+            377
+          ],
+          "pivot": [
+            302.0,
+            377
+          ],
+          "height": 377,
+          "bounds": [
+            82,
+            68,
+            691,
+            445
+          ]
+        }
+      ],
+      "touching_cells": [],
+      "source": "exec-f5297c28-34a4-4f34-b6fe-4b5be0d5d1fb.png",
+      "sha256": "dca60a676f9186e0767768932e2c532ff8b3d78874cee5d985ea58053cbcf32f"
+    },
+    "bosses/zheng.png": {
+      "file": "res://assets/ascension/bosses/zheng.png",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "grid": [
+        4,
+        2
+      ],
+      "frames": [
+        {
+          "region": [
+            18,
+            85,
+            429,
+            324
+          ],
+          "pivot": [
+            204.0,
+            321
+          ],
+          "height": 318,
+          "component_bounds": [
+            21,
+            88,
+            444,
+            406
+          ],
+          "opaque_component_pixels": 74660
+        },
+        {
+          "region": [
+            473,
+            83,
+            412,
+            327
+          ],
+          "pivot": [
+            192.5,
+            324
+          ],
+          "height": 321,
+          "component_bounds": [
+            476,
+            86,
+            882,
+            407
+          ],
+          "opaque_component_pixels": 71592
+        },
+        {
+          "region": [
+            899,
+            84,
+            446,
+            325
+          ],
+          "pivot": [
+            209.5,
+            322
+          ],
+          "height": 319,
+          "component_bounds": [
+            902,
+            87,
+            1342,
+            406
+          ],
+          "opaque_component_pixels": 74001
+        },
+        {
+          "region": [
+            1339,
+            60,
+            425,
+            356
+          ],
+          "pivot": [
+            213.0,
+            353
+          ],
+          "height": 350,
+          "component_bounds": [
+            1342,
+            63,
+            1761,
+            413
+          ],
+          "opaque_component_pixels": 68659
+        },
+        {
+          "region": [
+            10,
+            481,
+            447,
+            360
+          ],
+          "pivot": [
+            212.0,
+            357
+          ],
+          "height": 354,
+          "component_bounds": [
+            13,
+            484,
+            454,
+            838
+          ],
+          "opaque_component_pixels": 78737
+        },
+        {
+          "region": [
+            437,
+            481,
+            496,
+            339
+          ],
+          "pivot": [
+            228.5,
+            336
+          ],
+          "height": 333,
+          "component_bounds": [
+            440,
+            484,
+            930,
+            817
+          ],
+          "opaque_component_pixels": 73997
+        },
+        {
+          "region": [
+            887,
+            469,
+            456,
+            376
+          ],
+          "pivot": [
+            221.5,
+            373
+          ],
+          "height": 370,
+          "component_bounds": [
+            890,
+            472,
+            1340,
+            842
+          ],
+          "opaque_component_pixels": 88671
+        },
+        {
+          "region": [
+            1332,
+            555,
+            434,
+            283
+          ],
+          "pivot": [
+            220.0,
+            280
+          ],
+          "height": 277,
+          "component_bounds": [
+            1335,
+            558,
+            1763,
+            835
+          ],
+          "opaque_component_pixels": 71005
+        }
+      ],
+      "touching_cells": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "source": "exec-88d35fad-f6bb-477b-88a6-168deba3a383.png",
+      "sha256": "cc9be07f1e36192d49a885a2864cf63ca7cb1bea2aa69424d1d134471a7a8a27",
+      "nominal_frames": [
+        {
+          "region": [
+            21,
+            87,
+            423,
+            319
+          ],
+          "pivot": [
+            201.0,
+            319
+          ],
+          "height": 319,
+          "bounds": [
+            21,
+            87,
+            444,
+            406
+          ]
+        },
+        {
+          "region": [
+            476,
+            86,
+            406,
+            321
+          ],
+          "pivot": [
+            189.5,
+            321
+          ],
+          "height": 321,
+          "bounds": [
+            32,
+            86,
+            438,
+            407
+          ]
+        },
+        {
+          "region": [
+            902,
+            87,
+            428,
+            319
+          ],
+          "pivot": [
+            206.5,
+            319
+          ],
+          "height": 319,
+          "bounds": [
+            15,
+            87,
+            443,
+            406
+          ]
+        },
+        {
+          "region": [
+            1330,
+            63,
+            431,
+            350
+          ],
+          "pivot": [
+            222.0,
+            350
+          ],
+          "height": 350,
+          "bounds": [
+            0,
+            63,
+            431,
+            413
+          ]
+        },
+        {
+          "region": [
+            13,
+            484,
+            431,
+            354
+          ],
+          "pivot": [
+            209.0,
+            354
+          ],
+          "height": 354,
+          "bounds": [
+            13,
+            40,
+            444,
+            394
+          ]
+        },
+        {
+          "region": [
+            444,
+            484,
+            443,
+            333
+          ],
+          "pivot": [
+            221.5,
+            333
+          ],
+          "height": 333,
+          "bounds": [
+            0,
+            40,
+            443,
+            373
+          ]
+        },
+        {
+          "region": [
+            887,
+            472,
+            443,
+            370
+          ],
+          "pivot": [
+            221.5,
+            370
+          ],
+          "height": 370,
+          "bounds": [
+            0,
+            28,
+            443,
+            398
+          ]
+        },
+        {
+          "region": [
+            1330,
+            558,
+            433,
+            277
+          ],
+          "pivot": [
+            222.0,
+            277
+          ],
+          "height": 277,
+          "bounds": [
+            0,
+            114,
+            433,
+            391
+          ]
+        }
+      ],
+      "qa": "Measured complete connected alpha silhouettes, including tips beyond nominal cells. Source pixels unchanged; no image processing or repainting."
+    },
+    "bosses/zhuyin.png": {
+      "file": "res://assets/ascension/bosses/zhuyin.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "grid": [
+        4,
+        2
+      ],
+      "frames": [
+        {
+          "region": [
+            21,
+            9,
+            363,
+            503
+          ],
+          "pivot": [
+            171.0,
+            503
+          ],
+          "height": 503,
+          "bounds": [
+            21,
+            9,
+            384,
+            512
+          ]
+        },
+        {
+          "region": [
+            384,
+            9,
+            384,
+            470
+          ],
+          "pivot": [
+            192.0,
+            470
+          ],
+          "height": 470,
+          "bounds": [
+            0,
+            9,
+            384,
+            479
+          ]
+        },
+        {
+          "region": [
+            768,
+            19,
+            384,
+            493
+          ],
+          "pivot": [
+            192.0,
+            493
+          ],
+          "height": 493,
+          "bounds": [
+            0,
+            19,
+            384,
+            512
+          ]
+        },
+        {
+          "region": [
+            1152,
+            92,
+            370,
+            420
+          ],
+          "pivot": [
+            192.0,
+            420
+          ],
+          "height": 420,
+          "bounds": [
+            0,
+            92,
+            370,
+            512
+          ]
+        },
+        {
+          "region": [
+            12,
+            512,
+            372,
+            480
+          ],
+          "pivot": [
+            180.0,
+            480
+          ],
+          "height": 480,
+          "bounds": [
+            12,
+            0,
+            384,
+            480
+          ]
+        },
+        {
+          "region": [
+            384,
+            573,
+            384,
+            418
+          ],
+          "pivot": [
+            192.0,
+            418
+          ],
+          "height": 418,
+          "bounds": [
+            0,
+            61,
+            384,
+            479
+          ]
+        },
+        {
+          "region": [
+            768,
+            512,
+            384,
+            479
+          ],
+          "pivot": [
+            192.0,
+            479
+          ],
+          "height": 479,
+          "bounds": [
+            0,
+            0,
+            384,
+            479
+          ]
+        },
+        {
+          "region": [
+            1152,
+            512,
+            377,
+            479
+          ],
+          "pivot": [
+            192.0,
+            479
+          ],
+          "height": 479,
+          "bounds": [
+            0,
+            0,
+            377,
+            479
+          ]
+        }
+      ],
+      "touching_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "source": "exec-7a7f1372-158c-4e29-8021-c445487b5fc9.png",
+      "sha256": "169dbb3d6a2c760bcfad4b1d2fa1662392ef8ca769ccafab4676272f0b71a88b"
+    },
+    "bosses/yinglong.png": {
+      "file": "res://assets/ascension/bosses/yinglong.png",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "grid": [
+        4,
+        2
+      ],
+      "frames": [
+        {
+          "region": [
+            14,
+            29,
+            425,
+            372
+          ],
+          "pivot": [
+            208.0,
+            369
+          ],
+          "height": 366,
+          "component_bounds": [
+            17,
+            32,
+            436,
+            398
+          ],
+          "opaque_component_pixels": 75667
+        },
+        {
+          "region": [
+            460,
+            73,
+            427,
+            324
+          ],
+          "pivot": [
+            205.5,
+            321
+          ],
+          "height": 318,
+          "component_bounds": [
+            463,
+            76,
+            884,
+            394
+          ],
+          "opaque_component_pixels": 67625
+        },
+        {
+          "region": [
+            913,
+            80,
+            414,
+            314
+          ],
+          "pivot": [
+            195.5,
+            311
+          ],
+          "height": 308,
+          "component_bounds": [
+            916,
+            83,
+            1324,
+            391
+          ],
+          "opaque_component_pixels": 64857
+        },
+        {
+          "region": [
+            1340,
+            165,
+            431,
+            232
+          ],
+          "pivot": [
+            212.0,
+            229
+          ],
+          "height": 226,
+          "component_bounds": [
+            1343,
+            168,
+            1768,
+            394
+          ],
+          "opaque_component_pixels": 59716
+        },
+        {
+          "region": [
+            10,
+            542,
+            429,
+            287
+          ],
+          "pivot": [
+            212.0,
+            284
+          ],
+          "height": 281,
+          "component_bounds": [
+            13,
+            545,
+            436,
+            826
+          ],
+          "opaque_component_pixels": 61860
+        },
+        {
+          "region": [
+            447,
+            576,
+            439,
+            252
+          ],
+          "pivot": [
+            218.5,
+            249
+          ],
+          "height": 246,
+          "component_bounds": [
+            450,
+            579,
+            883,
+            825
+          ],
+          "opaque_component_pixels": 63067
+        },
+        {
+          "region": [
+            881,
+            427,
+            451,
+            409
+          ],
+          "pivot": [
+            227.5,
+            406
+          ],
+          "height": 403,
+          "component_bounds": [
+            884,
+            430,
+            1329,
+            833
+          ],
+          "opaque_component_pixels": 100311
+        },
+        {
+          "region": [
+            1346,
+            586,
+            419,
+            246
+          ],
+          "pivot": [
+            206.0,
+            243
+          ],
+          "height": 240,
+          "component_bounds": [
+            1349,
+            589,
+            1762,
+            829
+          ],
+          "opaque_component_pixels": 57355
+        }
+      ],
+      "touching_cells": [
+        2,
+        5,
+        6
+      ],
+      "source": "exec-b4451648-d76a-49df-9c54-1dd35a1238df.png",
+      "sha256": "400dc4437641707e30b03dcba096fb6703c590d0c9df61fec6f6828ed4661323",
+      "nominal_frames": [
+        {
+          "region": [
+            17,
+            32,
+            419,
+            366
+          ],
+          "pivot": [
+            205.0,
+            366
+          ],
+          "height": 366,
+          "bounds": [
+            17,
+            32,
+            436,
+            398
+          ]
+        },
+        {
+          "region": [
+            463,
+            76,
+            421,
+            318
+          ],
+          "pivot": [
+            202.5,
+            318
+          ],
+          "height": 318,
+          "bounds": [
+            19,
+            76,
+            440,
+            394
+          ]
+        },
+        {
+          "region": [
+            916,
+            83,
+            408,
+            361
+          ],
+          "pivot": [
+            192.5,
+            361
+          ],
+          "height": 361,
+          "bounds": [
+            29,
+            83,
+            437,
+            444
+          ]
+        },
+        {
+          "region": [
+            1343,
+            168,
+            425,
+            226
+          ],
+          "pivot": [
+            209.0,
+            226
+          ],
+          "height": 226,
+          "bounds": [
+            13,
+            168,
+            438,
+            394
+          ]
+        },
+        {
+          "region": [
+            13,
+            545,
+            423,
+            281
+          ],
+          "pivot": [
+            209.0,
+            281
+          ],
+          "height": 281,
+          "bounds": [
+            13,
+            101,
+            436,
+            382
+          ]
+        },
+        {
+          "region": [
+            447,
+            578,
+            440,
+            247
+          ],
+          "pivot": [
+            218.5,
+            247
+          ],
+          "height": 247,
+          "bounds": [
+            3,
+            134,
+            443,
+            381
+          ]
+        },
+        {
+          "region": [
+            887,
+            444,
+            442,
+            389
+          ],
+          "pivot": [
+            221.5,
+            389
+          ],
+          "height": 389,
+          "bounds": [
+            0,
+            0,
+            442,
+            389
+          ]
+        },
+        {
+          "region": [
+            1349,
+            589,
+            413,
+            240
+          ],
+          "pivot": [
+            203.0,
+            240
+          ],
+          "height": 240,
+          "bounds": [
+            19,
+            145,
+            432,
+            385
+          ]
+        }
+      ],
+      "qa": "Measured complete connected alpha silhouettes, including tips beyond nominal cells. Source pixels unchanged; no image processing or repainting."
+    },
+    "bosses/paoxiao.png": {
+      "file": "res://assets/ascension/bosses/paoxiao.png",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "grid": [
+        4,
+        2
+      ],
+      "frames": [
+        {
+          "region": [
+            30,
+            57,
+            405,
+            336
+          ],
+          "pivot": [
+            192.0,
+            333
+          ],
+          "height": 330,
+          "component_bounds": [
+            33,
+            60,
+            432,
+            390
+          ],
+          "opaque_component_pixels": 75698
+        },
+        {
+          "region": [
+            463,
+            61,
+            415,
+            331
+          ],
+          "pivot": [
+            202.5,
+            328
+          ],
+          "height": 325,
+          "component_bounds": [
+            466,
+            64,
+            875,
+            389
+          ],
+          "opaque_component_pixels": 72636
+        },
+        {
+          "region": [
+            903,
+            77,
+            405,
+            317
+          ],
+          "pivot": [
+            205.5,
+            314
+          ],
+          "height": 311,
+          "component_bounds": [
+            906,
+            80,
+            1305,
+            391
+          ],
+          "opaque_component_pixels": 70906
+        },
+        {
+          "region": [
+            1340,
+            107,
+            416,
+            287
+          ],
+          "pivot": [
+            212.0,
+            284
+          ],
+          "height": 281,
+          "component_bounds": [
+            1343,
+            110,
+            1753,
+            391
+          ],
+          "opaque_component_pixels": 68693
+        },
+        {
+          "region": [
+            12,
+            466,
+            420,
+            372
+          ],
+          "pivot": [
+            210.0,
+            369
+          ],
+          "height": 366,
+          "component_bounds": [
+            15,
+            469,
+            429,
+            835
+          ],
+          "opaque_component_pixels": 72559
+        },
+        {
+          "region": [
+            442,
+            497,
+            461,
+            304
+          ],
+          "pivot": [
+            223.5,
+            301
+          ],
+          "height": 298,
+          "component_bounds": [
+            445,
+            500,
+            900,
+            798
+          ],
+          "opaque_component_pixels": 73003
+        },
+        {
+          "region": [
+            865,
+            455,
+            469,
+            390
+          ],
+          "pivot": [
+            243.5,
+            387
+          ],
+          "height": 384,
+          "component_bounds": [
+            868,
+            458,
+            1331,
+            842
+          ],
+          "opaque_component_pixels": 89004
+        },
+        {
+          "region": [
+            1349,
+            569,
+            415,
+            272
+          ],
+          "pivot": [
+            203.0,
+            269
+          ],
+          "height": 266,
+          "component_bounds": [
+            1352,
+            572,
+            1761,
+            838
+          ],
+          "opaque_component_pixels": 64019
+        }
+      ],
+      "touching_cells": [
+        5,
+        6,
+        7
+      ],
+      "source": "exec-c4f904d0-a9a2-42cc-9980-32fbaadb206d.png",
+      "sha256": "2580d9c77bd452dc713ec0838807b56685d930b1a8f061311903136492a14b89",
+      "nominal_frames": [
+        {
+          "region": [
+            33,
+            60,
+            399,
+            330
+          ],
+          "pivot": [
+            189.0,
+            330
+          ],
+          "height": 330,
+          "bounds": [
+            33,
+            60,
+            432,
+            390
+          ]
+        },
+        {
+          "region": [
+            466,
+            64,
+            409,
+            325
+          ],
+          "pivot": [
+            199.5,
+            325
+          ],
+          "height": 325,
+          "bounds": [
+            22,
+            64,
+            431,
+            389
+          ]
+        },
+        {
+          "region": [
+            906,
+            80,
+            399,
+            311
+          ],
+          "pivot": [
+            202.5,
+            311
+          ],
+          "height": 311,
+          "bounds": [
+            19,
+            80,
+            418,
+            391
+          ]
+        },
+        {
+          "region": [
+            1343,
+            110,
+            410,
+            281
+          ],
+          "pivot": [
+            209.0,
+            281
+          ],
+          "height": 281,
+          "bounds": [
+            13,
+            110,
+            423,
+            391
+          ]
+        },
+        {
+          "region": [
+            15,
+            469,
+            414,
+            366
+          ],
+          "pivot": [
+            207.0,
+            366
+          ],
+          "height": 366,
+          "bounds": [
+            15,
+            25,
+            429,
+            391
+          ]
+        },
+        {
+          "region": [
+            445,
+            500,
+            442,
+            329
+          ],
+          "pivot": [
+            220.5,
+            329
+          ],
+          "height": 329,
+          "bounds": [
+            1,
+            56,
+            443,
+            385
+          ]
+        },
+        {
+          "region": [
+            887,
+            458,
+            443,
+            384
+          ],
+          "pivot": [
+            221.5,
+            384
+          ],
+          "height": 384,
+          "bounds": [
+            0,
+            14,
+            443,
+            398
+          ]
+        },
+        {
+          "region": [
+            1330,
+            572,
+            431,
+            266
+          ],
+          "pivot": [
+            222.0,
+            266
+          ],
+          "height": 266,
+          "bounds": [
+            0,
+            128,
+            431,
+            394
+          ]
+        }
+      ],
+      "qa": "Measured complete connected alpha silhouettes, including tips beyond nominal cells. Source pixels unchanged; no image processing or repainting."
+    },
+    "vfx/claw.png": {
+      "file": "res://assets/ascension/vfx/claw.png",
+      "dimensions": [
+        1998,
+        787
+      ],
+      "grid": [
+        4,
+        2
+      ],
+      "frames": [
+        {
+          "region": [
+            20,
+            34,
+            480,
+            340
+          ],
+          "pivot": [
+            230.0,
+            340
+          ],
+          "height": 340,
+          "bounds": [
+            20,
+            34,
+            500,
+            374
+          ]
+        },
+        {
+          "region": [
+            500,
+            76,
+            499,
+            308
+          ],
+          "pivot": [
+            249.5,
+            308
+          ],
+          "height": 308,
+          "bounds": [
+            0,
+            76,
+            499,
+            384
+          ]
+        },
+        {
+          "region": [
+            999,
+            30,
+            459,
+            357
+          ],
+          "pivot": [
+            249.5,
+            357
+          ],
+          "height": 357,
+          "bounds": [
+            0,
+            30,
+            459,
+            387
+          ]
+        },
+        {
+          "region": [
+            1498,
+            35,
+            484,
+            355
+          ],
+          "pivot": [
+            250.0,
+            355
+          ],
+          "height": 355,
+          "bounds": [
+            0,
+            35,
+            484,
+            390
+          ]
+        },
+        {
+          "region": [
+            21,
+            443,
+            451,
+            314
+          ],
+          "pivot": [
+            229.0,
+            314
+          ],
+          "height": 314,
+          "bounds": [
+            21,
+            49,
+            472,
+            363
+          ]
+        },
+        {
+          "region": [
+            508,
+            412,
+            474,
+            342
+          ],
+          "pivot": [
+            241.5,
+            342
+          ],
+          "height": 342,
+          "bounds": [
+            8,
+            18,
+            482,
+            360
+          ]
+        },
+        {
+          "region": [
+            1026,
+            408,
+            472,
+            354
+          ],
+          "pivot": [
+            222.5,
+            354
+          ],
+          "height": 354,
+          "bounds": [
+            27,
+            14,
+            499,
+            368
+          ]
+        },
+        {
+          "region": [
+            1498,
+            468,
+            478,
+            268
+          ],
+          "pivot": [
+            250.0,
+            268
+          ],
+          "height": 268,
+          "bounds": [
+            0,
+            74,
+            478,
+            342
+          ]
+        }
+      ],
+      "touching_cells": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "source": "exec-b5eb6093-7396-4b21-b41b-919135824d6e.png",
+      "sha256": "b69fba2dd6e3d5e88e8fa00dc135a1a7b0ba605242aed727b7153e3c2215973e"
+    },
+    "vfx/eclipse.png": {
+      "file": "res://assets/ascension/vfx/eclipse.png",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "grid": [
+        4,
+        2
+      ],
+      "frames": [
+        {
+          "region": [
+            145,
+            161,
+            165,
+            156
+          ],
+          "pivot": [
+            77.0,
+            156
+          ],
+          "height": 156,
+          "bounds": [
+            145,
+            161,
+            310,
+            317
+          ]
+        },
+        {
+          "region": [
+            448,
+            84,
+            439,
+            290
+          ],
+          "pivot": [
+            217.5,
+            290
+          ],
+          "height": 290,
+          "bounds": [
+            4,
+            84,
+            443,
+            374
+          ]
+        },
+        {
+          "region": [
+            887,
+            27,
+            443,
+            410
+          ],
+          "pivot": [
+            221.5,
+            410
+          ],
+          "height": 410,
+          "bounds": [
+            0,
+            27,
+            443,
+            437
+          ]
+        },
+        {
+          "region": [
+            1330,
+            11,
+            424,
+            433
+          ],
+          "pivot": [
+            222.0,
+            433
+          ],
+          "height": 433,
+          "bounds": [
+            0,
+            11,
+            424,
+            444
+          ]
+        },
+        {
+          "region": [
+            14,
+            481,
+            430,
+            391
+          ],
+          "pivot": [
+            208.0,
+            391
+          ],
+          "height": 391,
+          "bounds": [
+            14,
+            37,
+            444,
+            428
+          ]
+        },
+        {
+          "region": [
+            444,
+            444,
+            443,
+            432
+          ],
+          "pivot": [
+            221.5,
+            432
+          ],
+          "height": 432,
+          "bounds": [
+            0,
+            0,
+            443,
+            432
+          ]
+        },
+        {
+          "region": [
+            887,
+            454,
+            443,
+            420
+          ],
+          "pivot": [
+            221.5,
+            420
+          ],
+          "height": 420,
+          "bounds": [
+            0,
+            10,
+            443,
+            430
+          ]
+        },
+        {
+          "region": [
+            1330,
+            444,
+            425,
+            427
+          ],
+          "pivot": [
+            222.0,
+            427
+          ],
+          "height": 427,
+          "bounds": [
+            0,
+            0,
+            425,
+            427
+          ]
+        }
+      ],
+      "touching_cells": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "source": "exec-7b4a29db-99ec-49c0-b24d-7c8e93183afb.png",
+      "sha256": "d0a246730a9c2eb78f8dac2c2e65b997a7191e71b84476a6836177421a36c943"
+    },
+    "hero/combat-clean.png": {
+      "file": "res://assets/ascension/hero/combat-clean.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "grid": [
+        2,
+        2
+      ],
+      "frames": [
+        {
+          "region": [
+            106,
+            104,
+            410,
+            457
+          ],
+          "pivot": [
+            207.5,
+            457
+          ],
+          "height": 457,
+          "bounds": [
+            106,
+            104,
+            516,
+            561
+          ]
+        },
+        {
+          "region": [
+            638,
+            158,
+            586,
+            397
+          ],
+          "pivot": [
+            302.5,
+            397
+          ],
+          "height": 397,
+          "bounds": [
+            11,
+            158,
+            597,
+            555
+          ]
+        },
+        {
+          "region": [
+            117,
+            662,
+            422,
+            528
+          ],
+          "pivot": [
+            196.5,
+            528
+          ],
+          "height": 528,
+          "bounds": [
+            117,
+            35,
+            539,
+            563
+          ]
+        },
+        {
+          "region": [
+            689,
+            662,
+            503,
+            524
+          ],
+          "pivot": [
+            251.5,
+            524
+          ],
+          "height": 524,
+          "bounds": [
+            62,
+            35,
+            565,
+            559
+          ]
+        }
+      ],
+      "touching_cells": [],
+      "source": "exec-610035f0-cf35-4f3d-bb8d-bed7a9a2c255.png",
+      "sha256": "b7cee837a6c7883aa39d77d430b46d38db076c11013f07fb862d1202907e938d"
+    },
+    "bosses/zhuyin-clean.png": {
+      "file": "res://assets/ascension/bosses/zhuyin-clean.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "grid": [
+        2,
+        2
+      ],
+      "frames": [
+        {
+          "region": [
+            260,
+            15,
+            427,
+            476
+          ],
+          "pivot": [
+            124.0,
+            473
+          ],
+          "height": 470,
+          "component_bounds": [
+            263,
+            18,
+            684,
+            488
+          ],
+          "opaque_component_pixels": 102917
+        },
+        {
+          "region": [
+            903,
+            41,
+            449,
+            450
+          ],
+          "pivot": [
+            249.0,
+            447
+          ],
+          "height": 444,
+          "component_bounds": [
+            906,
+            44,
+            1349,
+            488
+          ],
+          "opaque_component_pixels": 107077
+        },
+        {
+          "region": [
+            71,
+            540,
+            688,
+            443
+          ],
+          "pivot": [
+            313.0,
+            440
+          ],
+          "height": 437,
+          "component_bounds": [
+            74,
+            543,
+            756,
+            980
+          ],
+          "opaque_component_pixels": 126853
+        },
+        {
+          "region": [
+            946,
+            495,
+            455,
+            504
+          ],
+          "pivot": [
+            206.0,
+            501
+          ],
+          "height": 498,
+          "component_bounds": [
+            949,
+            498,
+            1398,
+            996
+          ],
+          "opaque_component_pixels": 118991
+        }
+      ],
+      "touching_cells": [
+        1,
+        3
+      ],
+      "source": "exec-0d42aa89-af2e-45e9-a4dc-2642b3122957.png",
+      "sha256": "cfc91a25ce76dcdd812849b5eb3ff8c8e64ca0a2d41119699a692711f7812bcc",
+      "nominal_frames": [
+        {
+          "region": [
+            263,
+            17,
+            421,
+            471
+          ],
+          "pivot": [
+            121.0,
+            471
+          ],
+          "height": 471,
+          "bounds": [
+            263,
+            17,
+            684,
+            488
+          ]
+        },
+        {
+          "region": [
+            906,
+            44,
+            447,
+            468
+          ],
+          "pivot": [
+            246.0,
+            468
+          ],
+          "height": 468,
+          "bounds": [
+            138,
+            44,
+            585,
+            512
+          ]
+        },
+        {
+          "region": [
+            74,
+            543,
+            682,
+            437
+          ],
+          "pivot": [
+            310.0,
+            437
+          ],
+          "height": 437,
+          "bounds": [
+            74,
+            31,
+            756,
+            468
+          ]
+        },
+        {
+          "region": [
+            949,
+            512,
+            449,
+            484
+          ],
+          "pivot": [
+            203.0,
+            484
+          ],
+          "height": 484,
+          "bounds": [
+            181,
+            0,
+            630,
+            484
+          ]
+        }
+      ],
+      "qa": "Measured complete connected alpha silhouettes, including tips beyond nominal cells. Source pixels unchanged; no image processing or repainting."
+    }
+  }
+}

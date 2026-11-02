@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-29",
+  "generator": "OpenAI built-in image generation",
+  "origin": "original commissioned game VFX; no franchise assets",
+  "prompts": "PROMPTS.md",
+  "files": [
+    {
+      "file": "star-fist.png",
+      "generated_source": "exec-7c84fbe5-4469-4d10-9a78-27c65b4efd9a.png",
+      "sha256": "f37ce06657eaa5cbde73e246987c974caeb4cd35f41c134a99a9d8b6355aa31c",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "frames": 8,
+      "transparent": true,
+      "pixel_edits": false
+    },
+    {
+      "file": "root-crown.png",
+      "generated_source": "exec-69f28d74-c432-4ffe-9011-ae250e7ce18f.png",
+      "sha256": "5915e8f7d53733eb1f5dfb39e24e5c7f89565fe2e19acab6a4fe4ace6bde23a3",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "frames": 8,
+      "transparent": true,
+      "pixel_edits": false
+    }
+  ],
+  "runtime_notes": "Root crown uses individual atlas rectangles. Cel shader feathers overflow at cell edges. PNG files are unmodified tool outputs."
+}

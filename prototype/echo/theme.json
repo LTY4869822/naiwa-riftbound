@@ -1,0 +1,10 @@
+{
+  "name": "NAIWA / VICTORY ECHO",
+  "evidence": "A bright cartoon fantasy pet action game; choose one run relic after a stage. User requests Splatoon-inspired ink/sticker visual language.",
+  "ink": "17131f", "paper": "fff8e8", "text": "211a2b", "muted": "62586e",
+  "focus": "d9ff39", "gold": "ffd458", "violet": "be83ff", "mint": "80ecc2", "cyan": "79e7ef",
+  "layout": "Three full-card actions; clear readable effect copy; ink title, category tape, illustrated relic, action strip. Gameplay paused through existing director.",
+  "focus_seconds": 0.18, "entry_seconds": 0.34, "entry_stagger": 0.055,
+  "reduce_motion": "No tilt, lift, scale, stagger or decorative loop; immediate complete state and visible focus border.",
+  "commit": "Hover and navigation only focus; click/Enter/Space commits once using director.pick. No extra confirmation or rarity system."
+}

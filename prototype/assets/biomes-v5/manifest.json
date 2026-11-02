@@ -1,0 +1,1926 @@
+{
+  "thorn_matriarch": {
+    "file": "res://assets/biomes-v5/thorn_matriarch.png",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "sha256": "1c66fe66171242b0f0de3a1a241e95e6e92e7ba62e6309415ffe8e2cf43c3039",
+    "frames": [
+      {
+        "region": [
+          140,
+          144,
+          186,
+          220
+        ],
+        "pivot": [
+          113.0,
+          214
+        ],
+        "opaque_bounds": [
+          143,
+          147,
+          180,
+          214
+        ],
+        "canvas_margin": 143
+      },
+      {
+        "region": [
+          569,
+          141,
+          202,
+          222
+        ],
+        "pivot": [
+          117.0,
+          217
+        ],
+        "opaque_bounds": [
+          572,
+          144,
+          196,
+          216
+        ],
+        "canvas_margin": 144
+      },
+      {
+        "region": [
+          1002,
+          159,
+          213,
+          203
+        ],
+        "pivot": [
+          118.0,
+          199
+        ],
+        "opaque_bounds": [
+          1005,
+          162,
+          207,
+          197
+        ],
+        "canvas_margin": 162
+      },
+      {
+        "region": [
+          1433,
+          207,
+          226,
+          157
+        ],
+        "pivot": [
+          138.0,
+          152
+        ],
+        "opaque_bounds": [
+          1436,
+          210,
+          220,
+          151
+        ],
+        "canvas_margin": 118
+      },
+      {
+        "region": [
+          150,
+          579,
+          196,
+          228
+        ],
+        "pivot": [
+          144.0,
+          223
+        ],
+        "opaque_bounds": [
+          153,
+          582,
+          190,
+          222
+        ],
+        "canvas_margin": 83
+      },
+      {
+        "region": [
+          548,
+          603,
+          245,
+          205
+        ],
+        "pivot": [
+          147.0,
+          199
+        ],
+        "opaque_bounds": [
+          551,
+          606,
+          239,
+          199
+        ],
+        "canvas_margin": 82
+      },
+      {
+        "region": [
+          1008,
+          565,
+          201,
+          243
+        ],
+        "pivot": [
+          160.0,
+          236
+        ],
+        "opaque_bounds": [
+          1011,
+          568,
+          195,
+          237
+        ],
+        "canvas_margin": 82
+      },
+      {
+        "region": [
+          1435,
+          625,
+          229,
+          182
+        ],
+        "pivot": [
+          149.0,
+          177
+        ],
+        "opaque_bounds": [
+          1438,
+          628,
+          223,
+          176
+        ],
+        "canvas_margin": 83
+      }
+    ]
+  },
+  "mirror_weaver": {
+    "file": "res://assets/biomes-v5/mirror_weaver.png",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "sha256": "069d647100b62ba1c05792d38317fcbb1aa1909f107d8b601c11db006c3220fb",
+    "frames": [
+      {
+        "region": [
+          109,
+          154,
+          220,
+          219
+        ],
+        "pivot": [
+          132.0,
+          209
+        ],
+        "opaque_bounds": [
+          112,
+          157,
+          214,
+          213
+        ],
+        "canvas_margin": 112
+      },
+      {
+        "region": [
+          549,
+          165,
+          255,
+          209
+        ],
+        "pivot": [
+          150.0,
+          198
+        ],
+        "opaque_bounds": [
+          552,
+          168,
+          249,
+          203
+        ],
+        "canvas_margin": 168
+      },
+      {
+        "region": [
+          997,
+          170,
+          256,
+          204
+        ],
+        "pivot": [
+          137.0,
+          195
+        ],
+        "opaque_bounds": [
+          1000,
+          173,
+          250,
+          198
+        ],
+        "canvas_margin": 173
+      },
+      {
+        "region": [
+          1422,
+          216,
+          288,
+          158
+        ],
+        "pivot": [
+          139.0,
+          148
+        ],
+        "opaque_bounds": [
+          1425,
+          219,
+          282,
+          152
+        ],
+        "canvas_margin": 67
+      },
+      {
+        "region": [
+          105,
+          559,
+          273,
+          253
+        ],
+        "pivot": [
+          184.0,
+          241
+        ],
+        "opaque_bounds": [
+          108,
+          562,
+          267,
+          247
+        ],
+        "canvas_margin": 78
+      },
+      {
+        "region": [
+          424,
+          612,
+          382,
+          200
+        ],
+        "pivot": [
+          265.0,
+          189
+        ],
+        "opaque_bounds": [
+          427,
+          615,
+          376,
+          194
+        ],
+        "canvas_margin": 78
+      },
+      {
+        "region": [
+          974,
+          545,
+          278,
+          267
+        ],
+        "pivot": [
+          189.0,
+          256
+        ],
+        "opaque_bounds": [
+          977,
+          548,
+          272,
+          261
+        ],
+        "canvas_margin": 78
+      },
+      {
+        "region": [
+          1454,
+          619,
+          234,
+          193
+        ],
+        "pivot": [
+          126.0,
+          184
+        ],
+        "opaque_bounds": [
+          1457,
+          622,
+          228,
+          187
+        ],
+        "canvas_margin": 78
+      }
+    ]
+  },
+  "bell_colossus": {
+    "file": "res://assets/biomes-v5/bell_colossus.png",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "sha256": "0907c7419a6175e24dfd3f15368129bea888770af29a3e5b557fc7459636ff48",
+    "frames": [
+      {
+        "region": [
+          84,
+          126,
+          318,
+          293
+        ],
+        "pivot": [
+          150.0,
+          280
+        ],
+        "opaque_bounds": [
+          87,
+          129,
+          312,
+          287
+        ],
+        "canvas_margin": 87
+      },
+      {
+        "region": [
+          504,
+          126,
+          342,
+          276
+        ],
+        "pivot": [
+          147.0,
+          265
+        ],
+        "opaque_bounds": [
+          507,
+          129,
+          336,
+          270
+        ],
+        "canvas_margin": 129
+      },
+      {
+        "region": [
+          959,
+          133,
+          316,
+          284
+        ],
+        "pivot": [
+          142.0,
+          272
+        ],
+        "opaque_bounds": [
+          962,
+          136,
+          310,
+          278
+        ],
+        "canvas_margin": 136
+      },
+      {
+        "region": [
+          1363,
+          213,
+          354,
+          212
+        ],
+        "pivot": [
+          159.0,
+          204
+        ],
+        "opaque_bounds": [
+          1366,
+          216,
+          348,
+          206
+        ],
+        "canvas_margin": 60
+      },
+      {
+        "region": [
+          107,
+          465,
+          306,
+          347
+        ],
+        "pivot": [
+          134.0,
+          334
+        ],
+        "opaque_bounds": [
+          110,
+          468,
+          300,
+          341
+        ],
+        "canvas_margin": 78
+      },
+      {
+        "region": [
+          483,
+          574,
+          388,
+          236
+        ],
+        "pivot": [
+          165.0,
+          228
+        ],
+        "opaque_bounds": [
+          486,
+          577,
+          382,
+          230
+        ],
+        "canvas_margin": 80
+      },
+      {
+        "region": [
+          902,
+          541,
+          414,
+          275
+        ],
+        "pivot": [
+          181.0,
+          262
+        ],
+        "opaque_bounds": [
+          905,
+          544,
+          408,
+          269
+        ],
+        "canvas_margin": 74
+      },
+      {
+        "region": [
+          1403,
+          579,
+          330,
+          238
+        ],
+        "pivot": [
+          124.0,
+          229
+        ],
+        "opaque_bounds": [
+          1406,
+          582,
+          324,
+          232
+        ],
+        "canvas_margin": 44
+      }
+    ]
+  },
+  "molten_wheel": {
+    "file": "res://assets/biomes-v5/molten_wheel.png",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "sha256": "ecce1b405304debe4239bb82e41b29e1026abc4e58af6627a8da090a4d6811c5",
+    "frames": [
+      {
+        "region": [
+          98,
+          147,
+          249,
+          237
+        ],
+        "pivot": [
+          134.0,
+          231
+        ],
+        "opaque_bounds": [
+          101,
+          150,
+          243,
+          231
+        ],
+        "canvas_margin": 101
+      },
+      {
+        "region": [
+          523,
+          145,
+          295,
+          235
+        ],
+        "pivot": [
+          165.0,
+          229
+        ],
+        "opaque_bounds": [
+          526,
+          148,
+          289,
+          229
+        ],
+        "canvas_margin": 148
+      },
+      {
+        "region": [
+          965,
+          158,
+          324,
+          224
+        ],
+        "pivot": [
+          175.0,
+          217
+        ],
+        "opaque_bounds": [
+          968,
+          161,
+          318,
+          218
+        ],
+        "canvas_margin": 161
+      },
+      {
+        "region": [
+          1431,
+          189,
+          308,
+          192
+        ],
+        "pivot": [
+          147.0,
+          187
+        ],
+        "opaque_bounds": [
+          1434,
+          192,
+          302,
+          186
+        ],
+        "canvas_margin": 38
+      },
+      {
+        "region": [
+          77,
+          492,
+          256,
+          316
+        ],
+        "pivot": [
+          139.0,
+          310
+        ],
+        "opaque_bounds": [
+          80,
+          495,
+          250,
+          310
+        ],
+        "canvas_margin": 80
+      },
+      {
+        "region": [
+          453,
+          573,
+          416,
+          236
+        ],
+        "pivot": [
+          236.0,
+          229
+        ],
+        "opaque_bounds": [
+          456,
+          576,
+          410,
+          230
+        ],
+        "canvas_margin": 81
+      },
+      {
+        "region": [
+          913,
+          562,
+          404,
+          246
+        ],
+        "pivot": [
+          197.0,
+          239
+        ],
+        "opaque_bounds": [
+          916,
+          565,
+          398,
+          240
+        ],
+        "canvas_margin": 82
+      },
+      {
+        "region": [
+          1407,
+          579,
+          256,
+          238
+        ],
+        "pivot": [
+          163.0,
+          230
+        ],
+        "opaque_bounds": [
+          1410,
+          582,
+          250,
+          232
+        ],
+        "canvas_margin": 73
+      }
+    ]
+  },
+  "crystal_crab": {
+    "file": "res://assets/biomes-v5/crystal_crab.png",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "sha256": "dd5bd0bfb9000e89d3b23ee348fe3d6dc14f868f6919a6e499e207f2ac82e7e2",
+    "frames": [
+      {
+        "region": [
+          75,
+          179,
+          295,
+          191
+        ],
+        "pivot": [
+          159.0,
+          183
+        ],
+        "opaque_bounds": [
+          78,
+          182,
+          289,
+          185
+        ],
+        "canvas_margin": 78
+      },
+      {
+        "region": [
+          489,
+          182,
+          340,
+          188
+        ],
+        "pivot": [
+          178.0,
+          181
+        ],
+        "opaque_bounds": [
+          492,
+          185,
+          334,
+          182
+        ],
+        "canvas_margin": 185
+      },
+      {
+        "region": [
+          927,
+          188,
+          349,
+          183
+        ],
+        "pivot": [
+          185.0,
+          176
+        ],
+        "opaque_bounds": [
+          930,
+          191,
+          343,
+          177
+        ],
+        "canvas_margin": 191
+      },
+      {
+        "region": [
+          1333,
+          195,
+          391,
+          174
+        ],
+        "pivot": [
+          181.0,
+          167
+        ],
+        "opaque_bounds": [
+          1336,
+          198,
+          385,
+          168
+        ],
+        "canvas_margin": 53
+      },
+      {
+        "region": [
+          60,
+          512,
+          318,
+          288
+        ],
+        "pivot": [
+          211.0,
+          279
+        ],
+        "opaque_bounds": [
+          63,
+          515,
+          312,
+          282
+        ],
+        "canvas_margin": 63
+      },
+      {
+        "region": [
+          432,
+          619,
+          415,
+          181
+        ],
+        "pivot": [
+          291.0,
+          174
+        ],
+        "opaque_bounds": [
+          435,
+          622,
+          409,
+          175
+        ],
+        "canvas_margin": 90
+      },
+      {
+        "region": [
+          922,
+          575,
+          361,
+          226
+        ],
+        "pivot": [
+          185.0,
+          218
+        ],
+        "opaque_bounds": [
+          925,
+          578,
+          355,
+          220
+        ],
+        "canvas_margin": 89
+      },
+      {
+        "region": [
+          1457,
+          606,
+          242,
+          194
+        ],
+        "pivot": [
+          125.0,
+          186
+        ],
+        "opaque_bounds": [
+          1460,
+          609,
+          236,
+          188
+        ],
+        "canvas_margin": 78
+      }
+    ]
+  },
+  "glow_jelly": {
+    "file": "res://assets/biomes-v5/glow_jelly.png",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "sha256": "089c46523c36a9ba1948b3c11de497a70fa6addb413235a3c8c5921db584cf16",
+    "frames": [
+      {
+        "region": [
+          108,
+          148,
+          259,
+          243
+        ],
+        "pivot": [
+          183.0,
+          233
+        ],
+        "opaque_bounds": [
+          111,
+          151,
+          253,
+          237
+        ],
+        "canvas_margin": 111
+      },
+      {
+        "region": [
+          553,
+          144,
+          268,
+          248
+        ],
+        "pivot": [
+          163.0,
+          240
+        ],
+        "opaque_bounds": [
+          556,
+          147,
+          262,
+          242
+        ],
+        "canvas_margin": 147
+      },
+      {
+        "region": [
+          964,
+          141,
+          281,
+          250
+        ],
+        "pivot": [
+          193.0,
+          241
+        ],
+        "opaque_bounds": [
+          967,
+          144,
+          275,
+          244
+        ],
+        "canvas_margin": 144
+      },
+      {
+        "region": [
+          1373,
+          193,
+          356,
+          171
+        ],
+        "pivot": [
+          237.0,
+          162
+        ],
+        "opaque_bounds": [
+          1376,
+          196,
+          350,
+          165
+        ],
+        "canvas_margin": 48
+      },
+      {
+        "region": [
+          129,
+          584,
+          194,
+          224
+        ],
+        "pivot": [
+          91.0,
+          217
+        ],
+        "opaque_bounds": [
+          132,
+          587,
+          188,
+          218
+        ],
+        "canvas_margin": 82
+      },
+      {
+        "region": [
+          439,
+          580,
+          407,
+          228
+        ],
+        "pivot": [
+          280.0,
+          217
+        ],
+        "opaque_bounds": [
+          442,
+          583,
+          401,
+          222
+        ],
+        "canvas_margin": 82
+      },
+      {
+        "region": [
+          1003,
+          507,
+          282,
+          330
+        ],
+        "pivot": [
+          161.0,
+          319
+        ],
+        "opaque_bounds": [
+          1006,
+          510,
+          276,
+          324
+        ],
+        "canvas_margin": 53
+      },
+      {
+        "region": [
+          1443,
+          595,
+          252,
+          214
+        ],
+        "pivot": [
+          139.0,
+          207
+        ],
+        "opaque_bounds": [
+          1446,
+          598,
+          246,
+          208
+        ],
+        "canvas_margin": 81
+      }
+    ]
+  },
+  "gale_sentinel": {
+    "file": "res://assets/biomes-v5/gale_sentinel.png",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "sha256": "a00ef6cce25f17536ace8afc3778b0d6f0fef761fe7de095f63ba8cdc7b73819",
+    "frames": [
+      {
+        "region": [
+          96,
+          39,
+          287,
+          357
+        ],
+        "pivot": [
+          142.0,
+          351
+        ],
+        "opaque_bounds": [
+          99,
+          42,
+          281,
+          351
+        ],
+        "canvas_margin": 42
+      },
+      {
+        "region": [
+          506,
+          47,
+          329,
+          348
+        ],
+        "pivot": [
+          180.0,
+          343
+        ],
+        "opaque_bounds": [
+          509,
+          50,
+          323,
+          342
+        ],
+        "canvas_margin": 50
+      },
+      {
+        "region": [
+          912,
+          57,
+          344,
+          338
+        ],
+        "pivot": [
+          202.0,
+          332
+        ],
+        "opaque_bounds": [
+          915,
+          60,
+          338,
+          332
+        ],
+        "canvas_margin": 60
+      },
+      {
+        "region": [
+          1285,
+          174,
+          462,
+          221
+        ],
+        "pivot": [
+          327.0,
+          213
+        ],
+        "opaque_bounds": [
+          1288,
+          177,
+          456,
+          215
+        ],
+        "canvas_margin": 30
+      },
+      {
+        "region": [
+          73,
+          446,
+          318,
+          373
+        ],
+        "pivot": [
+          145.0,
+          365
+        ],
+        "opaque_bounds": [
+          76,
+          449,
+          312,
+          367
+        ],
+        "canvas_margin": 71
+      },
+      {
+        "region": [
+          397,
+          565,
+          491,
+          253
+        ],
+        "pivot": [
+          295.0,
+          245
+        ],
+        "opaque_bounds": [
+          400,
+          568,
+          485,
+          247
+        ],
+        "canvas_margin": 72
+      },
+      {
+        "region": [
+          923,
+          498,
+          390,
+          321
+        ],
+        "pivot": [
+          203.0,
+          313
+        ],
+        "opaque_bounds": [
+          926,
+          501,
+          384,
+          315
+        ],
+        "canvas_margin": 71
+      },
+      {
+        "region": [
+          1349,
+          550,
+          386,
+          275
+        ],
+        "pivot": [
+          265.0,
+          267
+        ],
+        "opaque_bounds": [
+          1352,
+          553,
+          380,
+          269
+        ],
+        "canvas_margin": 42
+      }
+    ]
+  },
+  "storm_manta": {
+    "file": "res://assets/biomes-v5/storm_manta.png",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "sha256": "1d6ae563be30e6ceb9427dd51d764e1742de4870cccf6fdd11095e0ba66c6beb",
+    "frames": [
+      {
+        "region": [
+          38,
+          168,
+          405,
+          220
+        ],
+        "pivot": [
+          260.0,
+          215
+        ],
+        "opaque_bounds": [
+          41,
+          171,
+          399,
+          214
+        ],
+        "canvas_margin": 41
+      },
+      {
+        "region": [
+          506,
+          181,
+          390,
+          230
+        ],
+        "pivot": [
+          214.0,
+          224
+        ],
+        "opaque_bounds": [
+          509,
+          184,
+          384,
+          224
+        ],
+        "canvas_margin": 184
+      },
+      {
+        "region": [
+          954,
+          54,
+          373,
+          347
+        ],
+        "pivot": [
+          178.0,
+          341
+        ],
+        "opaque_bounds": [
+          957,
+          57,
+          367,
+          341
+        ],
+        "canvas_margin": 57
+      },
+      {
+        "region": [
+          1383,
+          178,
+          366,
+          161
+        ],
+        "pivot": [
+          105.0,
+          156
+        ],
+        "opaque_bounds": [
+          1386,
+          181,
+          360,
+          155
+        ],
+        "canvas_margin": 28
+      },
+      {
+        "region": [
+          62,
+          543,
+          350,
+          254
+        ],
+        "pivot": [
+          144.0,
+          247
+        ],
+        "opaque_bounds": [
+          65,
+          546,
+          344,
+          248
+        ],
+        "canvas_margin": 65
+      },
+      {
+        "region": [
+          457,
+          567,
+          466,
+          225
+        ],
+        "pivot": [
+          280.0,
+          219
+        ],
+        "opaque_bounds": [
+          460,
+          570,
+          460,
+          219
+        ],
+        "canvas_margin": 98
+      },
+      {
+        "region": [
+          927,
+          474,
+          416,
+          332
+        ],
+        "pivot": [
+          230.0,
+          326
+        ],
+        "opaque_bounds": [
+          930,
+          477,
+          410,
+          326
+        ],
+        "canvas_margin": 84
+      },
+      {
+        "region": [
+          1400,
+          584,
+          342,
+          225
+        ],
+        "pivot": [
+          164.0,
+          218
+        ],
+        "opaque_bounds": [
+          1403,
+          587,
+          336,
+          219
+        ],
+        "canvas_margin": 35
+      }
+    ]
+  },
+  "slag_hound": {
+    "file": "res://assets/biomes-v5/slag_hound.png",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "sha256": "ed8747e2bca9e60f9aa773ad4e50365774e4aa3422f0669847ae0fdffd2eac7d",
+    "frames": [
+      {
+        "region": [
+          77,
+          159,
+          299,
+          211
+        ],
+        "pivot": [
+          150.0,
+          206
+        ],
+        "opaque_bounds": [
+          80,
+          162,
+          293,
+          205
+        ],
+        "canvas_margin": 80
+      },
+      {
+        "region": [
+          502,
+          162,
+          302,
+          204
+        ],
+        "pivot": [
+          170.0,
+          198
+        ],
+        "opaque_bounds": [
+          505,
+          165,
+          296,
+          198
+        ],
+        "canvas_margin": 165
+      },
+      {
+        "region": [
+          933,
+          164,
+          313,
+          198
+        ],
+        "pivot": [
+          100.0,
+          192
+        ],
+        "opaque_bounds": [
+          936,
+          167,
+          307,
+          192
+        ],
+        "canvas_margin": 167
+      },
+      {
+        "region": [
+          1352,
+          170,
+          382,
+          161
+        ],
+        "pivot": [
+          154.0,
+          154
+        ],
+        "opaque_bounds": [
+          1355,
+          173,
+          376,
+          155
+        ],
+        "canvas_margin": 43
+      },
+      {
+        "region": [
+          95,
+          589,
+          292,
+          190
+        ],
+        "pivot": [
+          127.0,
+          184
+        ],
+        "opaque_bounds": [
+          98,
+          592,
+          286,
+          184
+        ],
+        "canvas_margin": 98
+      },
+      {
+        "region": [
+          488,
+          567,
+          352,
+          213
+        ],
+        "pivot": [
+          304.0,
+          204
+        ],
+        "opaque_bounds": [
+          491,
+          570,
+          346,
+          207
+        ],
+        "canvas_margin": 110
+      },
+      {
+        "region": [
+          946,
+          546,
+          304,
+          260
+        ],
+        "pivot": [
+          147.0,
+          253
+        ],
+        "opaque_bounds": [
+          949,
+          549,
+          298,
+          254
+        ],
+        "canvas_margin": 84
+      },
+      {
+        "region": [
+          1401,
+          606,
+          300,
+          180
+        ],
+        "pivot": [
+          151.0,
+          175
+        ],
+        "opaque_bounds": [
+          1404,
+          609,
+          294,
+          174
+        ],
+        "canvas_margin": 76
+      }
+    ]
+  },
+  "gear_gunner": {
+    "file": "res://assets/biomes-v5/gear_gunner.png",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "sha256": "81fe549df51f44098a4518a4fc336f6e986ccaa3410063a2fd4d7f45abb79ac7",
+    "frames": [
+      {
+        "region": [
+          61,
+          165,
+          279,
+          208
+        ],
+        "pivot": [
+          177.0,
+          204
+        ],
+        "opaque_bounds": [
+          64,
+          168,
+          273,
+          202
+        ],
+        "canvas_margin": 64
+      },
+      {
+        "region": [
+          500,
+          158,
+          284,
+          216
+        ],
+        "pivot": [
+          165.0,
+          211
+        ],
+        "opaque_bounds": [
+          503,
+          161,
+          278,
+          210
+        ],
+        "canvas_margin": 161
+      },
+      {
+        "region": [
+          939,
+          161,
+          280,
+          212
+        ],
+        "pivot": [
+          171.0,
+          208
+        ],
+        "opaque_bounds": [
+          942,
+          164,
+          274,
+          206
+        ],
+        "canvas_margin": 164
+      },
+      {
+        "region": [
+          1380,
+          205,
+          318,
+          169
+        ],
+        "pivot": [
+          200.0,
+          164
+        ],
+        "opaque_bounds": [
+          1383,
+          208,
+          312,
+          163
+        ],
+        "canvas_margin": 79
+      },
+      {
+        "region": [
+          93,
+          576,
+          287,
+          222
+        ],
+        "pivot": [
+          168.0,
+          218
+        ],
+        "opaque_bounds": [
+          96,
+          579,
+          281,
+          216
+        ],
+        "canvas_margin": 92
+      },
+      {
+        "region": [
+          497,
+          605,
+          312,
+          193
+        ],
+        "pivot": [
+          177.0,
+          189
+        ],
+        "opaque_bounds": [
+          500,
+          608,
+          306,
+          187
+        ],
+        "canvas_margin": 92
+      },
+      {
+        "region": [
+          947,
+          540,
+          263,
+          258
+        ],
+        "pivot": [
+          156.0,
+          254
+        ],
+        "opaque_bounds": [
+          950,
+          543,
+          257,
+          252
+        ],
+        "canvas_margin": 92
+      },
+      {
+        "region": [
+          1394,
+          601,
+          290,
+          197
+        ],
+        "pivot": [
+          143.0,
+          193
+        ],
+        "opaque_bounds": [
+          1397,
+          604,
+          284,
+          191
+        ],
+        "canvas_margin": 92
+      }
+    ]
+  },
+  "cinder_skitter": {
+    "file": "res://assets/biomes-v5/cinder_skitter.png",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "sha256": "5938fdbbbe1ba5aed31aa891f45f2353b3987e157a98d1e1c2e6d1154bf7738f",
+    "frames": [
+      {
+        "region": [
+          90,
+          148,
+          271,
+          215
+        ],
+        "pivot": [
+          123.0,
+          204
+        ],
+        "opaque_bounds": [
+          93,
+          151,
+          265,
+          209
+        ],
+        "canvas_margin": 93
+      },
+      {
+        "region": [
+          516,
+          148,
+          287,
+          215
+        ],
+        "pivot": [
+          191.0,
+          205
+        ],
+        "opaque_bounds": [
+          519,
+          151,
+          281,
+          209
+        ],
+        "canvas_margin": 151
+      },
+      {
+        "region": [
+          968,
+          150,
+          292,
+          210
+        ],
+        "pivot": [
+          139.0,
+          202
+        ],
+        "opaque_bounds": [
+          971,
+          153,
+          286,
+          204
+        ],
+        "canvas_margin": 153
+      },
+      {
+        "region": [
+          1418,
+          191,
+          284,
+          171
+        ],
+        "pivot": [
+          150.0,
+          159
+        ],
+        "opaque_bounds": [
+          1421,
+          194,
+          278,
+          165
+        ],
+        "canvas_margin": 75
+      },
+      {
+        "region": [
+          78,
+          525,
+          282,
+          295
+        ],
+        "pivot": [
+          201.0,
+          282
+        ],
+        "opaque_bounds": [
+          81,
+          528,
+          276,
+          289
+        ],
+        "canvas_margin": 70
+      },
+      {
+        "region": [
+          458,
+          608,
+          385,
+          211
+        ],
+        "pivot": [
+          308.0,
+          197
+        ],
+        "opaque_bounds": [
+          461,
+          611,
+          379,
+          205
+        ],
+        "canvas_margin": 71
+      },
+      {
+        "region": [
+          946,
+          530,
+          316,
+          290
+        ],
+        "pivot": [
+          135.0,
+          276
+        ],
+        "opaque_bounds": [
+          949,
+          533,
+          310,
+          284
+        ],
+        "canvas_margin": 70
+      },
+      {
+        "region": [
+          1431,
+          609,
+          279,
+          202
+        ],
+        "pivot": [
+          187.0,
+          189
+        ],
+        "opaque_bounds": [
+          1434,
+          612,
+          273,
+          196
+        ],
+        "canvas_margin": 67
+      }
+    ]
+  },
+  "moss-1": {
+    "file": "res://assets/biomes-v5/moss-1.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "sha256": "2f8ecfb540add6827ae4b5e98b5449eb4b9d3d4477216f3b466400f25921d8ba"
+  },
+  "moss-2": {
+    "file": "res://assets/biomes-v5/moss-2.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "sha256": "2cbf74146a5eea610dc07fda1a0c64790ddd9e75611a7524f0f9583d99b01a47"
+  },
+  "moss-3": {
+    "file": "res://assets/biomes-v5/moss-3.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "sha256": "79f2fb142ccfa72affd72672fc358dc03b9555d5653ce5f40b0a02684f09ae8a"
+  },
+  "cavern-1": {
+    "file": "res://assets/biomes-v5/cavern-1.png",
+    "dimensions": [
+      1584,
+      993
+    ],
+    "sha256": "347adb7181aedb9bdc994d81943140a711fcb89c6c321baa8b3111d9389b9d80"
+  },
+  "cavern-2": {
+    "file": "res://assets/biomes-v5/cavern-2.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "sha256": "f02989a455770b2d020b25c4c15623997a47efabbab8f14760ef90c4349f7121"
+  },
+  "cavern-3": {
+    "file": "res://assets/biomes-v5/cavern-3.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "sha256": "1b9a2408802db965b022d215ec8ceffeb81e4d4cf0384e33f5aabc61635c3459"
+  },
+  "storm-1": {
+    "file": "res://assets/biomes-v5/storm-1.png",
+    "dimensions": [
+      1584,
+      993
+    ],
+    "sha256": "f4d5fef8f1d8508c787486316da2579c51304d5651588513a9f4b53a43499cbc"
+  },
+  "storm-2": {
+    "file": "res://assets/biomes-v5/storm-2.png",
+    "dimensions": [
+      1585,
+      992
+    ],
+    "sha256": "17de4af3f04b89b2feccd42b14f723d5982836ae824675dded40f905e060d8f6"
+  },
+  "storm-3": {
+    "file": "res://assets/biomes-v5/storm-3.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "sha256": "fdb70337a73528135ab91118d59f2d3a3bad0b20cc4a660e8097ab2281adbadd"
+  },
+  "forge-1": {
+    "file": "res://assets/biomes-v5/forge-1.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "sha256": "feffee0b4f2effaf56629c4be886513465eea61c9c768907a96afc1c8f3058c4"
+  },
+  "forge-2": {
+    "file": "res://assets/biomes-v5/forge-2.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "sha256": "6600572a874522fc571c6088afa141786b35bbbfe92ca3358e45461d50158898"
+  },
+  "forge-3": {
+    "file": "res://assets/biomes-v5/forge-3.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "sha256": "d2e7c33d4ab69098ecf607b00c14859c3a63be2f3a1005c00c108cea9f0f83e2"
+  },
+  "ledges": {
+    "file": "res://assets/biomes-v5/ledges.png",
+    "dimensions": [
+      1585,
+      992
+    ],
+    "frames": [
+      {
+        "region": [
+          12,
+          98,
+          783,
+          356
+        ],
+        "contact_y": 54.0
+      },
+      {
+        "region": [
+          829,
+          121,
+          741,
+          300
+        ],
+        "contact_y": 31.0
+      },
+      {
+        "region": [
+          17,
+          586,
+          768,
+          289
+        ],
+        "contact_y": 5.0
+      },
+      {
+        "region": [
+          827,
+          583,
+          740,
+          292
+        ],
+        "contact_y": 6.0
+      }
+    ],
+    "sha256": "83d4264fb7ec3cb26da8e168948e0e059dc30a3815180dcbfdc2544cbf60b295"
+  }
+}

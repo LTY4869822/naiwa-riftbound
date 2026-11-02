@@ -1,0 +1,54 @@
+{
+  "license": "Original project-generated synthesized audio",
+  "method": "Seeded noise transient + frequency-dropping body + grit; three takes per role",
+  "samples": {
+    "light-1.wav": {
+      "seconds": 0.19,
+      "peak_dbfs": -2.1581079461903916
+    },
+    "light-2.wav": {
+      "seconds": 0.19,
+      "peak_dbfs": -2.1581079461903916
+    },
+    "light-3.wav": {
+      "seconds": 0.19,
+      "peak_dbfs": -2.1581079461903916
+    },
+    "heavy-1.wav": {
+      "seconds": 0.36,
+      "peak_dbfs": -2.1581079461903916
+    },
+    "heavy-2.wav": {
+      "seconds": 0.36,
+      "peak_dbfs": -2.1581079461903916
+    },
+    "heavy-3.wav": {
+      "seconds": 0.36,
+      "peak_dbfs": -2.1581079461903916
+    },
+    "break-1.wav": {
+      "seconds": 0.42,
+      "peak_dbfs": -2.1581079461903916
+    },
+    "break-2.wav": {
+      "seconds": 0.42,
+      "peak_dbfs": -2.1581079461903916
+    },
+    "break-3.wav": {
+      "seconds": 0.42,
+      "peak_dbfs": -2.1581079461903916
+    },
+    "hurt-1.wav": {
+      "seconds": 0.25,
+      "peak_dbfs": -2.1581079461903916
+    },
+    "hurt-2.wav": {
+      "seconds": 0.25,
+      "peak_dbfs": -2.1581079461903916
+    },
+    "hurt-3.wav": {
+      "seconds": 0.25,
+      "peak_dbfs": -2.1581079461903916
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "sources": {
+    "scenes": "prototype/assets/biomes-v5/*-1.png",
+    "pet": "prototype/assets/menu-v2/pet/front-idle.png",
+    "font": "Noto Sans SC 900, SIL OFL; licenses/NOTO-OFL.txt"
+  },
+  "files": {
+    "cavern-thumb.webp": 9786,
+    "cavern.webp": 275782,
+    "cover-bold.woff2": 40720,
+    "forge-thumb.webp": 9442,
+    "forge.webp": 227762,
+    "moss-thumb.webp": 9860,
+    "moss.webp": 304748,
+    "naiwa.webp": 62170,
+    "storm-thumb.webp": 11514,
+    "storm.webp": 285542
+  }
+}
